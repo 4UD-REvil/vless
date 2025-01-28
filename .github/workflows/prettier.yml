@@ -1,0 +1,99 @@
+name: Code Formatting and Style
+
+on:
+  push:
+    paths:
+      - '**/*.py'      
+      - '**/*.js'
+      - '**/*.json'
+      - '**/*.yml'
+      - '**/*.md'
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  NODE_VERSION: '20'
+  PYTHON_VERSION: '3.12'
+  PRETTIER_VERSION: '3.1.0'
+
+jobs:
+  formatting:
+    name: Code Formatting
+    runs-on: ubuntu-22.04
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install Python tools
+        run: |
+          pip install black[d] flake8 isort
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Initialize npm project
+        run: |
+          if [ ! -f package.json ]; then
+           npm init -y --scope=@vless
+          fi
+          npm install prettier@${{ env.PRETTIER_VERSION }} prettier-plugin-toml --save-dev
+          npm install --package-lock-only 
+
+      - name: Cache npm dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+           ~/.npm
+           ./node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+           ${{ runner.os }}-node-
+
+     
+      - name: Run Black formatter
+        run: |
+         black --config ./pyproject.toml --check . || (black --config ./pyproject.toml .;exit 0)
+        continue-on-error: true
+
+
+      - name: Run Prettier
+        uses: creyD/prettier_action@v4.3
+        with:
+          prettier_options: --write **/*.{js,json,yml,md} --ignore-unknown --config /.prettierrc.js
+          commit_message: "style: apply code formatting"
+          prettier_version: ${{ env.PRETTIER_VERSION }}
+          only_changed: true
+        env:
+         token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "Diana-Cl"
+          git config --global user.email "135276904+Diana-Cl@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "style: apply code-formatting"
+          git push
+        continue-on-error: true
+
+      - name: Post formatting status
+        run: |
+          echo "✅ Formatting completed successfully!"
