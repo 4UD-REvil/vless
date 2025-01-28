@@ -2,23 +2,23 @@
     "ipv4": [
         {
             "colo": "Default",
-            "ip": "172.67.154.9",
-            "latency": 164,
+            "ip": "172.67.49.92",
+            "latency": 224,
             "line": "CM",
             "loss": 0,
             "node": "51C_SDCM",
-            "speed": 830,
-            "time": "2025-01-27 23:14:58"
+            "speed": 750,
+            "time": "2025-01-27 23:48:16"
         },
         {
             "colo": "Default",
-            "ip": "172.67.248.56",
-            "latency": 234,
+            "ip": "172.67.5.194",
+            "latency": 197,
             "line": "CM",
             "loss": 0,
             "node": "51C_SDCM",
-            "speed": 740,
-            "time": "2025-01-27 23:09:18"
+            "speed": 725,
+            "time": "2025-01-27 23:48:17"
         },
         {
             "colo": "Default",
