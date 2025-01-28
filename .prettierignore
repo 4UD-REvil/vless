@@ -1,0 +1,26 @@
+# The files  we don't want to format
+## Specific directories
+dist/
+build/
+.github/
+*.lock
+*.log
+.env
+.env.*
+node_modules/
+DNS over HTTPS/
+sub/
+edge/
+hiddify/
+boringtun-boringtun-cli-0.5.2/
+
+# Specific files
+result.csv
+warp.json
+Endpoints.csv
+LB.js
+WarpOnWarp.json
+package.json
+package-lock.json
+DNS.js
+README.md
