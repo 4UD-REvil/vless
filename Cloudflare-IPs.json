@@ -2,6 +2,16 @@
     "ipv4": [
         {
             "colo": "Default",
+            "ip": "172.64.194.149",
+            "latency": 223,
+            "line": "CM",
+            "loss": 0,
+            "node": "51C_SDCM",
+            "speed": 980,
+            "time": "2025-01-28 00:16:56"
+        },
+        {
+            "colo": "Default",
             "ip": "172.64.137.206",
             "latency": 206,
             "line": "CM",
@@ -12,23 +22,13 @@
         },
         {
             "colo": "Default",
-            "ip": "172.67.170.97",
-            "latency": 218,
+            "ip": "172.67.222.92",
+            "latency": 217,
             "line": "CM",
             "loss": 0,
             "node": "51C_SDCM",
-            "speed": 775,
-            "time": "2025-01-27 23:53:55"
-        },
-        {
-            "colo": "Default",
-            "ip": "172.67.5.194",
-            "latency": 197,
-            "line": "CM",
-            "loss": 0,
-            "node": "51C_SDCM",
-            "speed": 725,
-            "time": "2025-01-27 23:48:17"
+            "speed": 750,
+            "time": "2025-01-28 00:16:57"
         },
         {
             "colo": "Default",
