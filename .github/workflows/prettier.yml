@@ -23,13 +23,13 @@ on:
 env:
   NODE_VERSION: '20'
   PYTHON_VERSION: '3.12'
-  PRETTIER_VERSION: '3.1.0'
+  PRETTIER_VERSION: '3.4.2'
 
 # Define the jobs to run
 jobs:
   formatting:
     name: Code Formatting
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     timeout-minutes: 25
 
     # Define required permissions
