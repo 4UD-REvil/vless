@@ -1,11 +1,13 @@
 name: "The fallen crown"
 
 on:
-  workflow_dispatch:
-  push:
-    branches: [ "main" ]
-  schedule:
-    - cron: '0 */3 * * *'
+#  push:
+#    branches: [ "main" ]
+#    paths: 
+#      - '**/preprocessor.*'
+#  schedule:
+#    - cron: '0 */3 * * *'
+#  workflow_dispatch:
 
 jobs:
   build:
