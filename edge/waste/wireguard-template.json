@@ -176,10 +176,7 @@
       "type": "wireguard",
       "server": "162.159.195.104",
       "server_port": 880,
-      "local_address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8ed3:f932:3d08:f6de:34d1/128"
-      ],
+      "local_address": ["172.16.0.2/32", "2606:4700:110:8ed3:f932:3d08:f6de:34d1/128"],
       "private_key": "xxxxxxxxxxxxxx",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [74, 241, 73],
@@ -192,10 +189,7 @@
       "type": "wireguard",
       "server": "162.159.195.104",
       "server_port": 880,
-      "local_address": [
-        "172.16.0.2/32",
-        "2606:4700:110:849c:85dd:8a0b:6792:776a/128"
-      ],
+      "local_address": ["172.16.0.2/32", "2606:4700:110:849c:85dd:8a0b:6792:776a/128"],
       "private_key": "xxxxxxxxxxxxxx",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [35, 174, 8],
@@ -208,10 +202,7 @@
       "type": "wireguard",
       "server": "engage.ircf.space",
       "server_port": 2408,
-      "local_address": [
-        "172.16.0.2/32",
-        "2606:4700:110:872e:6c1b:a513:a0fc:fa28/128"
-      ],
+      "local_address": ["172.16.0.2/32", "2606:4700:110:872e:6c1b:a513:a0fc:fa28/128"],
       "private_key": "xxxxxxxxxxxxx",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [216, 227, 41],
@@ -224,10 +215,7 @@
       "type": "wireguard",
       "server": "engage.ircf.space",
       "server_port": 2408,
-      "local_address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8090:618e:f556:484d:7ed2/128"
-      ],
+      "local_address": ["172.16.0.2/32", "2606:4700:110:8090:618e:f556:484d:7ed2/128"],
       "private_key": "xxxxxxxxxxxxxx",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [245, 147, 6],
@@ -240,10 +228,7 @@
       "type": "wireguard",
       "server": "::ffff:a29f:c368",
       "server_port": 880,
-      "local_address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8ed3:f932:3d08:f6de:34d1/128"
-      ],
+      "local_address": ["172.16.0.2/32", "2606:4700:110:8ed3:f932:3d08:f6de:34d1/128"],
       "private_key": "xxxxxxxxxxxxxx",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [74, 241, 73],
@@ -256,10 +241,7 @@
       "type": "wireguard",
       "server": "::ffff:a29f:c368",
       "server_port": 880,
-      "local_address": [
-        "172.16.0.2/32",
-        "2606:4700:110:849c:85dd:8a0b:6792:776a/128"
-      ],
+      "local_address": ["172.16.0.2/32", "2606:4700:110:849c:85dd:8a0b:6792:776a/128"],
       "private_key": "xxxxxxxxxxxxx",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [35, 174, 8],
@@ -272,10 +254,7 @@
       "type": "wireguard",
       "server": "162.159.195.104.sslip.io",
       "server_port": 880,
-      "local_address": [
-        "172.16.0.2/32",
-        "2606:4700:110:849c:85dd:8a0b:6792:776a/128"
-      ],
+      "local_address": ["172.16.0.2/32", "2606:4700:110:849c:85dd:8a0b:6792:776a/128"],
       "private_key": "xxxxxxxxxxxxxx",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [35, 174, 8],
@@ -288,10 +267,7 @@
       "type": "wireguard",
       "server": "162.159.195.104.sslip.io",
       "server_port": 880,
-      "local_address": [
-        "172.16.0.2/32",
-        "2606:4700:110:849c:85dd:8a0b:6792:776a/128"
-      ],
+      "local_address": ["172.16.0.2/32", "2606:4700:110:849c:85dd:8a0b:6792:776a/128"],
       "private_key": "xxxxxxxxxxxxxx",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [35, 174, 8],

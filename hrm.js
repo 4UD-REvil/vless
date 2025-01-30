@@ -896,10 +896,7 @@ async function handleRequest(request) {
     'https://raw.githubusercontent.com/NiREvil/Harmony/refs/heads/main/cf-clean.json'; //Second source of Cloudflare clean IP addresses.
   const ipv4urlRE2 = 'https://strawberry.victoriacross.ir'; //3rd source of Cloudflare clean IP addresses.
 
-  const [ipv4listRE1, ipv4listRE2] = await Promise.all([
-    fetch(ipv4urlRE1),
-    fetch(ipv4urlRE2),
-  ]);
+  const [ipv4listRE1, ipv4listRE2] = await Promise.all([fetch(ipv4urlRE1), fetch(ipv4urlRE2)]);
 
   const ipListDataRE1 = await ipv4listRE1.json();
   const ipListDataRE2 = await ipv4listRE2.json();
@@ -936,9 +933,9 @@ async function handleRequest(request) {
       ed: config.ed, // Add ed parameter
       eh: config.eh, // Add eh parameter
     });
-    const vlessUrl = `vless://${config.id}@${config.add}:${
-      config.port
-    }?${queryParams.toString()}#${config.ps}`;
+    const vlessUrl = `vless://${config.id}@${config.add}:${config.port}?${queryParams.toString()}#${
+      config.ps
+    }`;
     configsList.push(vlessUrl);
   }
 
@@ -963,9 +960,9 @@ async function handleRequest(request) {
       ed: config.ed,
       eh: config.eh,
     });
-    const vlessUrl = `vless://${config.id}@${config.add}:${
-      config.port
-    }?${queryParams.toString()}#${config.ps}`;
+    const vlessUrl = `vless://${config.id}@${config.add}:${config.port}?${queryParams.toString()}#${
+      config.ps
+    }`;
     if (!uniqueIPsRE1.has(ip)) {
       configsList.push(vlessUrl);
       uniqueIPsRE1.add(ip);
@@ -993,9 +990,9 @@ async function handleRequest(request) {
       ed: config.ed,
       eh: config.eh,
     });
-    const vlessUrl = `vless://${config.id}@${config.add}:${
-      config.port
-    }?${queryParams.toString()}#${config.ps}`;
+    const vlessUrl = `vless://${config.id}@${config.add}:${config.port}?${queryParams.toString()}#${
+      config.ps
+    }`;
     if (!uniqueIPsRE2.has(ip)) {
       configsList.push(vlessUrl);
       uniqueIPsRE2.add(ip);

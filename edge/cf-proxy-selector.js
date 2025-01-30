@@ -78,15 +78,13 @@ export default {
       // Loop while backend domain list is not empty
       while (backendDomains.length > 0) {
         // Randomly select a backend domain
-        const randomBackend =
-          backendDomains[Math.floor(Math.random() * backendDomains.length)];
+        const randomBackend = backendDomains[Math.floor(Math.random() * backendDomains.length)];
         // Remove selected domain from the list
         backendDomains = backendDomains.filter(host => host !== randomBackend);
 
         url.hostname = randomBackend; // domain
         url.pathname = testPath.split('?')[0];
-        url.search =
-          testPath.split('?')[1] == '' ? '' : '?' + testPath.split('?')[1];
+        url.search = testPath.split('?')[1] == '' ? '' : '?' + testPath.split('?')[1];
         try {
           // Make request with timeout
           const response = await fetchWithTimeout(new Request(url), {
@@ -128,8 +126,7 @@ async function ADD(envadd) {
 
   // Remove leading and trailing commas (if any)
   if (addtext.charAt(0) == ',') addtext = addtext.slice(1);
-  if (addtext.charAt(addtext.length - 1) == ',')
-    addtext = addtext.slice(0, addtext.length - 1);
+  if (addtext.charAt(addtext.length - 1) == ',') addtext = addtext.slice(0, addtext.length - 1);
 
   // Split string by comma to get address array
   const add = addtext.split(',');

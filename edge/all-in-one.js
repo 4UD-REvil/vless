@@ -132,12 +132,8 @@ export default {
         } catch (e) {}
       }
 
-      var vmessConfigList = configList.filter(
-        cnf => cnf.search('vmess://') == 0,
-      );
-      var trojanConfigList = configList.filter(
-        cnf => cnf.search('trojan://') == 0,
-      );
+      var vmessConfigList = configList.filter(cnf => cnf.search('vmess://') == 0);
+      var trojanConfigList = configList.filter(cnf => cnf.search('trojan://') == 0);
       var ssConfigList = configList.filter(cnf => cnf.search('ss://') == 0);
       var mergedConfigList = [];
 
@@ -169,11 +165,7 @@ export default {
         }
 
         return new Response(
-          btoa(
-            getMultipleRandomElements(mergedConfigList, maxConfigItems).join(
-              '\n',
-            ),
-          ),
+          btoa(getMultipleRandomElements(mergedConfigList, maxConfigItems).join('\n')),
         );
       } else {
         // clash
@@ -255,8 +247,7 @@ function mixConfig(conf, url, protocol) {
       if (conf.path == undefined) {
         conf.path = '';
       }
-      conf.path =
-        '/' + addr + ':' + conf.port + '/' + conf.path.replace(/^\//g, '');
+      conf.path = '/' + addr + ':' + conf.port + '/' + conf.path.replace(/^\//g, '');
       conf.fp = fpList[Math.floor(Math.random() * fpList.length)];
       conf.alpn = alpnList[Math.floor(Math.random() * alpnList.length)];
       conf.port = 443;
@@ -316,9 +307,7 @@ function toClash(conf, protocol) {
       },
     };
     config.name =
-      config.name
-        .replace(/[^\x20-\x7E]/g, '')
-        .replace(/[\s\/:|\[\]@\(\)\.]/g, '') +
+      config.name.replace(/[^\x20-\x7E]/g, '').replace(/[\s\/:|\[\]@\(\)\.]/g, '') +
       '-' +
       Math.floor(Math.random() * 10000);
     if (!regexUUID.test(config.uuid)) {

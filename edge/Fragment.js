@@ -10,8 +10,7 @@ addEventListener('fetch', event => {
 });
 
 // Utility functions
-const selectRandomItem = items =>
-  items[Math.floor(Math.random() * items.length)];
+const selectRandomItem = items => items[Math.floor(Math.random() * items.length)];
 const generateRandomString = (
   length,
   characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789',
@@ -26,9 +25,7 @@ const generateRandomString = (
 const randomizeCase = str =>
   str
     .split('')
-    .map(char =>
-      Math.random() > 0.5 ? char.toUpperCase() : char.toLowerCase(),
-    )
+    .map(char => (Math.random() > 0.5 ? char.toUpperCase() : char.toLowerCase()))
     .join('');
 
 // Main handler function
@@ -53,12 +50,7 @@ async function handleRequest(request) {
     dns: {
       hosts: {
         'domain:googleapis.cn': ['googleapis.com'],
-        'dns.google': [
-          '8.8.4.4',
-          '8.8.8.8',
-          '2001:4860:4860::8888',
-          '2001:4860:4860::8844',
-        ],
+        'dns.google': ['8.8.4.4', '8.8.8.8', '2001:4860:4860::8888', '2001:4860:4860::8844'],
       },
       servers: [
         'https://dns.google/dns-query',
