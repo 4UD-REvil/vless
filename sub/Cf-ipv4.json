@@ -61,16 +61,6 @@
     },
     {
         "colo": "LAX",
-        "ip": "104.19.133.12",
-        "latency": 164,
-        "line": "CT",
-        "loss": 0,
-        "node": "QIXJSCT",
-        "speed": 310,
-        "time": "2025-01-29 23:23:34"
-    },
-    {
-        "colo": "LAX",
         "ip": "104.16.112.53",
         "latency": 163,
         "line": "CT",
@@ -78,6 +68,16 @@
         "node": "QIXJSCT",
         "speed": 310,
         "time": "2025-01-29 23:23:28"
+    },
+    {
+        "colo": "LAX",
+        "ip": "104.19.133.12",
+        "latency": 164,
+        "line": "CT",
+        "loss": 0,
+        "node": "QIXJSCT",
+        "speed": 310,
+        "time": "2025-01-29 23:23:34"
     },
     {
         "colo": "LAX",
