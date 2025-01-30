@@ -47,7 +47,7 @@ jobs:
         with:
           fetch-depth: 0
           submodules: 'recursive' # Include all submodules
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }} 
 
       # Set up Python environment
       - name: Set up Python
@@ -124,8 +124,9 @@ jobs:
           commit_message: 'style: apply code formatting standards'
           commit_description: 'Applied automatic formatting using Black and Prettier'
           prettier_version: ${{ env.PRETTIER_VERSION }}
+          only_changed: true 
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
 
       # Add a manual commit step in case the Prettier action fails to commit
