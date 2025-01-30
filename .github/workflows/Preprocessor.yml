@@ -1,9 +1,9 @@
-name: "The fallen crown"
+name: 'The fallen crown'
 
 on:
 #  push:
 #    branches: [ "main" ]
-#    paths: 
+#    paths:
 #      - '**/preprocessor.*'
 #  schedule:
 #    - cron: '0 */3 * * *'
@@ -40,7 +40,7 @@ jobs:
         run: |
           git add -A
           git diff --cached --quiet || git commit -m "ⅣⅭ $(TZ='Asia/Tehran' date '+%H:%M:%S')"
-          
+
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
