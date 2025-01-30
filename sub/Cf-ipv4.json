@@ -50,54 +50,54 @@
         "time": "2025-01-29 23:10:28"
     },
     {
-        "colo": "LHR",
-        "ip": "104.21.116.244",
-        "latency": 188,
+        "colo": "HKG",
+        "ip": "104.16.208.57",
+        "latency": 179,
+        "line": "CT",
+        "loss": 0,
+        "node": "QYZJBGP",
+        "speed": 330,
+        "time": "2025-01-29 23:25:37"
+    },
+    {
+        "colo": "LAX",
+        "ip": "104.19.133.12",
+        "latency": 164,
         "line": "CT",
         "loss": 0,
         "node": "QIXJSCT",
         "speed": 310,
-        "time": "2025-01-29 23:13:39"
+        "time": "2025-01-29 23:23:34"
+    },
+    {
+        "colo": "LAX",
+        "ip": "104.16.112.53",
+        "latency": 163,
+        "line": "CT",
+        "loss": 0,
+        "node": "QIXJSCT",
+        "speed": 310,
+        "time": "2025-01-29 23:23:28"
+    },
+    {
+        "colo": "LAX",
+        "ip": "104.18.29.52",
+        "latency": 169,
+        "line": "CT",
+        "loss": 0,
+        "node": "QIXJSCT",
+        "speed": 275,
+        "time": "2025-01-29 23:23:40"
     },
     {
         "colo": "HKG",
-        "ip": "104.17.72.81",
-        "latency": 167,
-        "line": "CT",
-        "loss": 0,
-        "node": "QIXJSCT",
-        "speed": 310,
-        "time": "2025-01-29 23:13:33"
-    },
-    {
-        "colo": "SJC",
-        "ip": "104.19.171.192",
-        "latency": 157,
-        "line": "CT",
-        "loss": 0,
-        "node": "QIXJSCT",
-        "speed": 310,
-        "time": "2025-01-29 23:13:27"
-    },
-    {
-        "colo": "LAX",
-        "ip": "104.21.232.96",
-        "latency": 152,
+        "ip": "104.17.131.218",
+        "latency": 184,
         "line": "CT",
         "loss": 0,
         "node": "QYZJBGP",
-        "speed": 285,
-        "time": "2025-01-29 23:15:29"
-    },
-    {
-        "colo": "LAX",
-        "ip": "104.18.27.248",
-        "latency": 140,
-        "line": "CT",
-        "loss": 0,
-        "node": "QYZJBGP",
-        "speed": 285,
-        "time": "2025-01-29 23:15:07"
+        "speed": 265,
+        "time": "2025-01-29 23:25:53"
     },
     {
         "colo": "ARN",
