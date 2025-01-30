@@ -124,7 +124,6 @@ jobs:
           commit_message: "style: apply code formatting standards"
           commit_description: "Applied automatic formatting using Black and Prettier"
           prettier_version: ${{ env.PRETTIER_VERSION }}
-          only_changed: true  # Only format changed files
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         continue-on-error: true
