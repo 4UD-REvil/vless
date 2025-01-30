@@ -7,8 +7,8 @@ import base64
 import json
 import shutil
 
-TEHRAN_SYMBOL = "\u26AA\uFE0F"  # IOS white circle 
-BERLIN_SYMBOL = "\U0001F7E1"    #    yellow circle
+TEHRAN_SYMBOL = "\u26aa\ufe0f"  # IOS white circle
+BERLIN_SYMBOL = "\U0001f7e1"  #    yellow circle
 
 TEHRAN_TAG = f"{TEHRAN_SYMBOL}Tehran"
 BERLIN_TAG = f"{BERLIN_SYMBOL}Berlin"
@@ -37,6 +37,7 @@ main_result_path = os.path.join(main_directory, "Endpoints.csv")
 main_singbox_path = os.path.join(main_directory, "sing-box.json")
 main_warp_path = os.path.join(main_directory, "warp.json")
 
+
 # Create a list of cloudflare wireguard endpoints
 def create_ips():
     c = 0
@@ -51,6 +52,7 @@ def create_ips():
                 if c != top_ips:
                     file.write("\n")
 
+
 def arch_suffix():
     machine = platform.machine().lower()
     if machine.startswith("i386") or machine.startswith("i686"):
@@ -64,13 +66,13 @@ def arch_suffix():
     else:
         raise ValueError("Unsupported CPU architecture")
 
+
 # warp ON warp wireguard configurations, Exclusively for hidfify clients
 def export_Hiddify(t_ips):
-    config_prefix = (
-        f"warp://{t_ips[0]}?ifp=1-3&ifpm=m4#{TEHRAN_TAG}&&detour=warp://{t_ips[1]}?ifp=1-2&ifpm=m5#{BERLIN_TAG}"
-    )
+    config_prefix = f"warp://{t_ips[0]}?ifp=1-3&ifpm=m4#{TEHRAN_TAG}&&detour=warp://{t_ips[1]}?ifp=1-2&ifpm=m5#{BERLIN_TAG}"
     formatted_time = datetime.datetime.now().strftime("%A, %d %b %Y, %H:%M")
     return config_prefix, formatted_time
+
 
 # warp ON warp wireguard configurations, Only for official sinbox clients
 def toSingBox(tag, clean_ip, detour):
@@ -111,6 +113,7 @@ def toSingBox(tag, clean_ip, detour):
         print("Error: Command execution failed or produced no output")
         return None
 
+
 def export_SingBox(t_ips):
     template_path = os.path.join(edge_directory, "assets", "singbox-template.json")
     with open(template_path, "r") as f:
@@ -133,6 +136,7 @@ def export_SingBox(t_ips):
     with open(main_singbox_path, "w") as f:
         json.dump(data, f, indent=4)
 
+
 def main():
     try:
         if not os.path.exists(edge_directory):
@@ -145,27 +149,27 @@ def main():
             create_ips()
             print("Bestip.txt File Created Successfully!")
 
-        # Running warp for scan clean ips 
+        # Running warp for scan clean ips
         arch = arch_suffix()
         print("Fetching warp program...")
         url = f"https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-linux-{arch}"
-        
+
         warp_executable = os.path.join(edge_directory, "warp")
         subprocess.run(["wget", url, "-O", warp_executable], check=True)
         os.chmod(warp_executable, 0o755)
-        
+
         print("Scanning IPs...")
         subprocess.run(
             [warp_executable],
             check=True,
             stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL
+            stderr=subprocess.DEVNULL,
         )
         print("Warp executed successfully.")
 
         if os.path.exists(edge_result_path):
             shutil.copy2(edge_result_path, main_result_path)
-            
+
         Bestip = []
         with open(edge_result_path, "r") as csv_file:
             next(csv_file)
@@ -180,14 +184,25 @@ def main():
         config_prefix, _ = export_Hiddify(Bestip)
 
         # Hiddify profile shits
-        title = "//profile-title: base64:" + base64.b64encode("Freedom to Dream 💛✨".encode("utf-8")).decode("utf-8") + "\n"
+        title = (
+            "//profile-title: base64:"
+            + base64.b64encode("Freedom to Dream 💛✨".encode("utf-8")).decode("utf-8")
+            + "\n"
+        )
         update_interval = "//profile-update-interval: 4\n"
         sub_info = "//subscription-userinfo: upload=805306368000; download=2576980377600; total=6012954214400; expire=1762677732\n"
         profile_web = "//profile-web-page-url: https://github.com/NiREvil\n"
         last_modified = "//last update on: " + formatted_time + "\n"
 
         with open(main_warp_path, "w") as op:
-            op.write(title + update_interval + sub_info + profile_web + last_modified + config_prefix)
+            op.write(
+                title
+                + update_interval
+                + sub_info
+                + profile_web
+                + last_modified
+                + config_prefix
+            )
 
         export_SingBox(Bestip)
 
@@ -201,6 +216,7 @@ def main():
             os.remove(edge_bestip_path)
         if os.path.exists(warp_executable):
             os.remove(warp_executable)
+
 
 if __name__ == "__main__":
     main()

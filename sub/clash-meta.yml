@@ -3,7 +3,7 @@ allow-lan: true
 mode: Rule
 log-level: silent
 proxies:
-  - name: "⚪November_1_1"
+  - name: '⚪November_1_1'
     type: vmess
     server: 188.114.97.3
     port: 443
@@ -20,7 +20,7 @@ proxies:
       headers:
         Host: afrhms16v.bestxray.buzz
 
-  - name: "⚪November_1002_6"
+  - name: '⚪November_1002_6'
     type: trojan
     server: 104.21.50.5
     port: 443
@@ -34,7 +34,7 @@ proxies:
       headers:
         Host: production.tj.ojan.workers.dev
 
-  - name: "⚪November_101_14"
+  - name: '⚪November_101_14'
     type: vmess
     server: us3e-mmnnfr9dop0.v2freevpn.com
     port: 80
@@ -48,7 +48,7 @@ proxies:
       headers:
         Host: us3e-mmnnfr9dop0.v2freevpn.com
 
-  - name: "⚪November_1020_26"
+  - name: '⚪November_1020_26'
     type: trojan
     server: 162.159.135.232
     port: 8443
@@ -62,7 +62,7 @@ proxies:
       headers:
         Host: e9464f45.trauma-2r4.pages.dev
 
-  - name: "⚪November_1022_28"
+  - name: '⚪November_1022_28'
     type: vmess
     server: 188.114.96.6
     port: 443
@@ -79,7 +79,7 @@ proxies:
       headers:
         Host: afrhms16v.bestxray.buzz
 
-  - name: "⚪November_1038_45"
+  - name: '⚪November_1038_45'
     type: vmess
     server: 104.16.60.8
     port: 2086
@@ -93,7 +93,7 @@ proxies:
       headers:
         Host: r-wispy-meadow-9221.fosoka9932.workers.dev
 
-  - name: "⚪November_104_47"
+  - name: '⚪November_104_47'
     type: vmess
     server: 104.21.55.234
     port: 443
@@ -110,7 +110,7 @@ proxies:
       headers:
         Host: gwdef.sbs
 
-  - name: "⚪November_1045_53"
+  - name: '⚪November_1045_53'
     type: vmess
     server: 104.16.60.8
     port: 8443
@@ -127,7 +127,7 @@ proxies:
       headers:
         Host: late-wave-1d0a.lesijo3430.workers.dev
 
-  - name: "⚪November_105_58"
+  - name: '⚪November_105_58'
     type: vmess
     server: s1c.v2.v001sss.xyz
     port: 2082
@@ -139,7 +139,7 @@ proxies:
     ws-opts:
       path: /
 
-  - name: "⚪November_1050_59"
+  - name: '⚪November_1050_59'
     type: vmess
     server: 104.21.31.62
     port: 443
@@ -156,7 +156,7 @@ proxies:
       headers:
         Host: obdii.cfd
 
-  - name: "⚪November_1059_68"
+  - name: '⚪November_1059_68'
     type: vmess
     server: 104.21.24.170
     port: 443
@@ -173,7 +173,7 @@ proxies:
       headers:
         Host: adenc36v.xtooltech.cfd
 
-  - name: "⚪November_1067_77"
+  - name: '⚪November_1067_77'
     type: vmess
     server: 104.17.27.198
     port: 443
@@ -186,9 +186,9 @@ proxies:
     servername: hdfy6c5.cpionline.co
     network: grpc
     grpc-opts:
-      grpc-service-name: "lRkGCkYS9X5GFzoZoavn2kmJ"
+      grpc-service-name: 'lRkGCkYS9X5GFzoZoavn2kmJ'
 
-  - name: "⚪November_1072_83"
+  - name: '⚪November_1072_83'
     type: vmess
     server: 104.16.61.8
     port: 2086
@@ -202,7 +202,7 @@ proxies:
       headers:
         Host: y-old-mode-9c0diab.wiriy73548.workers.dev
 
-  - name: "⚪November_1074_85"
+  - name: '⚪November_1074_85'
     type: ss
     server: mynode.work.gd
     port: 20088
@@ -210,7 +210,7 @@ proxies:
     password: ڦʺl٬TJ1q8DFgǪǥ
     udp: true
 
-  - name: "⚪November_1094_105"
+  - name: '⚪November_1094_105'
     type: vmess
     server: 185.146.173.95
     port: 443
@@ -227,7 +227,7 @@ proxies:
       headers:
         Host: jahfkjha.cfd
 
-  - name: "⚪November_1096_107"
+  - name: '⚪November_1096_107'
     type: trojan
     server: 104.19.159.12
     port: 443
@@ -241,7 +241,7 @@ proxies:
       headers:
         Host: jobscareertoday.com
 
-  - name: "⚪November_11_111"
+  - name: '⚪November_11_111'
     type: vmess
     server: afrhms16v.bestxray.buzz
     port: 443
@@ -258,7 +258,7 @@ proxies:
       headers:
         Host: afrhms16v.bestxray.buzz
 
-  - name: "⚪November_1102_115"
+  - name: '⚪November_1102_115'
     type: vmess
     server: denc36.xtooltech.cfd
     port: 443
@@ -268,14 +268,14 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: 
+    servername:
     network: ws
     ws-opts:
       path: /linkws
       headers:
         Host: adenc36v.xtooltech.cfd
 
-  - name: "⚪November_1106_119"
+  - name: '⚪November_1106_119'
     type: vmess
     server: 185.146.173.158
     port: 443
@@ -292,7 +292,7 @@ proxies:
       headers:
         Host: jahfkjha.cfd
 
-  - name: "⚪November_1107_120"
+  - name: '⚪November_1107_120'
     type: vmess
     server: 172.66.213.38
     port: 443
@@ -309,7 +309,7 @@ proxies:
       headers:
         Host: green-morning-ce19.mehdipost667.workers.dev
 
-  - name: "⚪November_1128_143"
+  - name: '⚪November_1128_143'
     type: vmess
     server: lin0502.hwcar.sbs
     port: 443
@@ -326,7 +326,7 @@ proxies:
       headers:
         Host: linja05.hwcar.sbs
 
-  - name: "⚪November_1139_155"
+  - name: '⚪November_1139_155'
     type: vmess
     server: 104.16.60.8
     port: 8880
@@ -340,7 +340,7 @@ proxies:
       headers:
         Host: nd-truth-210a8hwjhs.bonar11011.workers.dev
 
-  - name: "⚪November_1142_159"
+  - name: '⚪November_1142_159'
     type: vmess
     server: 104.16.67.38
     port: 2096
@@ -357,7 +357,7 @@ proxies:
       headers:
         Host: wormay18khodayatainlahzehshokret.abza.workers.dev
 
-  - name: "⚪November_1155_173"
+  - name: '⚪November_1155_173'
     type: vmess
     server: 104.21.48.84
     port: 443
@@ -374,7 +374,7 @@ proxies:
       headers:
         Host: hdfy6c5.cpionline.co
 
-  - name: "⚪November_1159_177"
+  - name: '⚪November_1159_177'
     type: vmess
     server: beyonddbc.sbs
     port: 443
@@ -384,14 +384,14 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: 
+    servername:
     network: ws
     ws-opts:
       path: /linkws
       headers:
         Host: beyonddbc.sbs
 
-  - name: "⚪November_1172_192"
+  - name: '⚪November_1172_192'
     type: vmess
     server: 172.67.138.140
     port: 443
@@ -408,7 +408,7 @@ proxies:
       headers:
         Host: ivideos.sbs
 
-  - name: "⚪November_118_200"
+  - name: '⚪November_118_200'
     type: vmess
     server: 104.16.60.8
     port: 8080
@@ -422,7 +422,7 @@ proxies:
       headers:
         Host: vpnsupportfast.vpnsuortfast.workers.dev
 
-  - name: "⚪November_1194_215"
+  - name: '⚪November_1194_215'
     type: vmess
     server: 104.16.67.38
     port: 2082
@@ -436,7 +436,7 @@ proxies:
       headers:
         Host: r-wispy-meadow-9221.fosoka9932.workers.dev
 
-  - name: "⚪November_1197_218"
+  - name: '⚪November_1197_218'
     type: ss
     server: 81.19.141.45
     port: 52873
@@ -444,7 +444,7 @@ proxies:
     password: Qvt8qes1q1OwmTuFzrBc7I
     udp: true
 
-  - name: "⚪November_1199_220"
+  - name: '⚪November_1199_220'
     type: vmess
     server: 104.16.61.8
     port: 2083
@@ -461,7 +461,7 @@ proxies:
       headers:
         Host: ury-unit-c030ehei8.poget71138.workers.dev
 
-  - name: "⚪November_12_221"
+  - name: '⚪November_12_221'
     type: vmess
     server: 104.16.61.8
     port: 2052
@@ -475,7 +475,7 @@ proxies:
       headers:
         Host: free.fnet00.workers.dev
 
-  - name: "⚪November_120_222"
+  - name: '⚪November_120_222'
     type: trojan
     server: 198.41.220.20
     port: 443
@@ -489,7 +489,7 @@ proxies:
       headers:
         Host: avianrecruit.com
 
-  - name: "⚪November_1202_225"
+  - name: '⚪November_1202_225'
     type: trojan
     server: 172.67.174.252
     port: 443
@@ -503,7 +503,7 @@ proxies:
       headers:
         Host: esetsecuritylicense1.vowexa5791.workers.dev
 
-  - name: "⚪November_1203_226"
+  - name: '⚪November_1203_226'
     type: vmess
     server: 104.16.61.8
     port: 2086
@@ -517,7 +517,7 @@ proxies:
       headers:
         Host: vmess.taxar71054.workers.dev
 
-  - name: "⚪November_1212_236"
+  - name: '⚪November_1212_236'
     type: ss
     server: 81.19.141.45
     port: 52873
@@ -525,7 +525,7 @@ proxies:
     password: AqKTKaZ0yjR4NLQE8Y17Zu
     udp: true
 
-  - name: "⚪November_1214_238"
+  - name: '⚪November_1214_238'
     type: trojan
     server: zula.ir
     port: 2096
@@ -539,7 +539,7 @@ proxies:
       headers:
         Host: trojan.trojan0.woRkeRS.deV
 
-  - name: "⚪November_1229_254"
+  - name: '⚪November_1229_254'
     type: vmess
     server: 188.114.96.3
     port: 443
@@ -556,7 +556,7 @@ proxies:
       headers:
         Host: jahfkjha.cfd
 
-  - name: "⚪November_123_255"
+  - name: '⚪November_123_255'
     type: vmess
     server: onea.flha.ru
     port: 2095
@@ -568,7 +568,7 @@ proxies:
     ws-opts:
       path: /
 
-  - name: "⚪November_1248_275"
+  - name: '⚪November_1248_275'
     type: ss
     server: 64.227.144.190
     port: 50690
@@ -576,7 +576,7 @@ proxies:
     password: o0aIoQx9HZoWGHlhfAc37X
     udp: true
 
-  - name: "⚪November_125_277"
+  - name: '⚪November_125_277'
     type: trojan
     server: 104.19.171.7
     port: 443
@@ -590,7 +590,7 @@ proxies:
       headers:
         Host: jobscareerforstudent.com
 
-  - name: "⚪November_1250_278"
+  - name: '⚪November_1250_278'
     type: vmess
     server: 38.75.137.27
     port: 22324
@@ -599,16 +599,16 @@ proxies:
     cipher: auto
     udp: true
 
-  - name: "⚪November_1251_279"
+  - name: '⚪November_1251_279'
     type: trojan
     server: 94.131.122.157
     port: 2053
     password: 6d25dd28-80a4-4f63-80c6-f36d6ce1d25f
     udp: true
-    servername: 
+    servername:
     skip-cert-verify: true
 
-  - name: "⚪November_1253_281"
+  - name: '⚪November_1253_281'
     type: vmess
     server: gcore-bwg.1929585.xyz
     port: 443
@@ -618,12 +618,12 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: 
+    servername:
     network: ws
     ws-opts:
       path: /ab
 
-  - name: "⚪November_1254_282"
+  - name: '⚪November_1254_282'
     type: vmess
     server: 147.78.140.30
     port: 443
@@ -640,7 +640,7 @@ proxies:
       headers:
         Host: 4868-poetry-4868.napora7003.workers.dev
 
-  - name: "⚪November_126_288"
+  - name: '⚪November_126_288'
     type: vmess
     server: zula.ir
     port: 443
@@ -657,7 +657,7 @@ proxies:
       headers:
         Host: jahfkjha.cfd
 
-  - name: "⚪November_1261_290"
+  - name: '⚪November_1261_290'
     type: vmess
     server: 104.21.74.239
     port: 443
@@ -674,7 +674,7 @@ proxies:
       headers:
         Host: afrhms07.xfixedfloat.cfd
 
-  - name: "⚪November_1265_294"
+  - name: '⚪November_1265_294'
     type: vmess
     server: 104.16.61.8
     port: 2052
@@ -688,7 +688,7 @@ proxies:
       headers:
         Host: r-wispy-meadow-9221.fosoka9932.workers.dev
 
-  - name: "⚪November_127_299"
+  - name: '⚪November_127_299'
     type: vmess
     server: upload.ir
     port: 443
@@ -705,7 +705,7 @@ proxies:
       headers:
         Host: afrhms16v.bestxray.buzz
 
-  - name: "⚪November_1275_305"
+  - name: '⚪November_1275_305'
     type: vmess
     server: 104.16.61.8
     port: 2086
@@ -719,7 +719,7 @@ proxies:
       headers:
         Host: 6ba6-sound-6ba6.siliy37818.workers.dev
 
-  - name: "⚪November_1277_306"
+  - name: '⚪November_1277_306'
     type: trojan
     server: 188.114.99.222
     port: 443
@@ -733,7 +733,7 @@ proxies:
       headers:
         Host: migekehcode27.kiwaja6458.workers.dev
 
-  - name: "⚪November_1279_308"
+  - name: '⚪November_1279_308'
     type: ss
     server: 77.83.246.74
     port: 33320
@@ -741,7 +741,7 @@ proxies:
     password: SQj0SiArKuBiIzcrPCvr5j
     udp: true
 
-  - name: "⚪November_1283_313"
+  - name: '⚪November_1283_313'
     type: vmess
     server: 50.114.243.61
     port: 43834
@@ -750,7 +750,7 @@ proxies:
     cipher: auto
     udp: true
 
-  - name: "⚪November_1288_318"
+  - name: '⚪November_1288_318'
     type: ss
     server: 81.19.141.45
     port: 52873
@@ -758,7 +758,7 @@ proxies:
     password: Zx3PtvlHKWXwBpifHwpqW0
     udp: true
 
-  - name: "⚪November_129_320"
+  - name: '⚪November_129_320'
     type: vmess
     server: 104.19.45.202
     port: 2095
@@ -772,7 +772,7 @@ proxies:
       headers:
         Host: onea.flha.ru
 
-  - name: "⚪November_1293_324"
+  - name: '⚪November_1293_324'
     type: vmess
     server: 104.17.245.1
     port: 443
@@ -789,7 +789,7 @@ proxies:
       headers:
         Host: worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev
 
-  - name: "⚪November_1303_336"
+  - name: '⚪November_1303_336'
     type: ss
     server: exchange.gameaurela.click
     port: 52952
@@ -797,7 +797,7 @@ proxies:
     password: LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj
     udp: true
 
-  - name: "⚪November_1316_350"
+  - name: '⚪November_1316_350'
     type: vmess
     server: 188.114.96.5
     port: 443
@@ -814,7 +814,7 @@ proxies:
       headers:
         Host: linde06.indiavideo.sbs
 
-  - name: "⚪November_1318_352"
+  - name: '⚪November_1318_352'
     type: vmess
     server: 104.16.67.38
     port: 2095
@@ -828,7 +828,7 @@ proxies:
       headers:
         Host: r-wispy-meadow-9221.fosoka9932.workers.dev
 
-  - name: "⚪November_132_354"
+  - name: '⚪November_132_354'
     type: vmess
     server: 195.85.59.22
     port: 443
@@ -845,7 +845,7 @@ proxies:
       headers:
         Host: 8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev
 
-  - name: "⚪November_1345_382"
+  - name: '⚪November_1345_382'
     type: vmess
     server: 50.114.243.61
     port: 43834
@@ -854,7 +854,7 @@ proxies:
     cipher: auto
     udp: true
 
-  - name: "⚪November_1347_384"
+  - name: '⚪November_1347_384'
     type: vmess
     server: Back.MsV2ray.online
     port: 80
@@ -868,7 +868,7 @@ proxies:
       headers:
         Host: range-shape-b3fuegu.bananok182.workers.dev
 
-  - name: "⚪November_1348_385"
+  - name: '⚪November_1348_385'
     type: vmess
     server: 162.159.153.2
     port: 443
@@ -885,7 +885,7 @@ proxies:
       headers:
         Host: xmivideo.cfd
 
-  - name: "⚪November_1359_397"
+  - name: '⚪November_1359_397'
     type: ss
     server: exchange.gameaurela.click
     port: 52952
@@ -893,7 +893,7 @@ proxies:
     password: LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj
     udp: true
 
-  - name: "⚪November_136_398"
+  - name: '⚪November_136_398'
     type: trojan
     server: w3.org
     port: 443
@@ -907,7 +907,7 @@ proxies:
       headers:
         Host: jobscareerforstudent.com
 
-  - name: "⚪November_14_406"
+  - name: '⚪November_14_406'
     type: vmess
     server: hms02opi.fxiaomi.sbs
     port: 443
@@ -924,7 +924,7 @@ proxies:
       headers:
         Host: hms02.fxiaomi.sbs
 
-  - name: "⚪November_144_411"
+  - name: '⚪November_144_411'
     type: trojan
     server: 104.17.147.8
     port: 443
@@ -938,7 +938,7 @@ proxies:
       headers:
         Host: jobscareerforstudent.com
 
-  - name: "⚪November_147_414"
+  - name: '⚪November_147_414'
     type: vmess
     server: afrhms16v.bestxray.buzz
     port: 443
@@ -948,14 +948,14 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: 
+    servername:
     network: ws
     ws-opts:
       path: /linkws
       headers:
         Host: afrhms16v.bestxray.buzz
 
-  - name: "⚪November_150_417"
+  - name: '⚪November_150_417'
     type: vmess
     server: 104.16.60.8
     port: 2053
@@ -972,7 +972,7 @@ proxies:
       headers:
         Host: vpnsupportfast.vpnsuortfast.workers.dev
 
-  - name: "⚪November_152_419"
+  - name: '⚪November_152_419'
     type: trojan
     server: 104.16.192.155
     port: 443
@@ -986,7 +986,7 @@ proxies:
       headers:
         Host: jobscareerfortoday.com
 
-  - name: "⚪November_155_422"
+  - name: '⚪November_155_422'
     type: trojan
     server: 198.41.220.14
     port: 443
@@ -1000,7 +1000,7 @@ proxies:
       headers:
         Host: avianrecruit.com
 
-  - name: "⚪November_157_424"
+  - name: '⚪November_157_424'
     type: vmess
     server: 104.19.45.137
     port: 2095
@@ -1014,7 +1014,7 @@ proxies:
       headers:
         Host: onea.flha.ru
 
-  - name: "⚪November_158_425"
+  - name: '⚪November_158_425'
     type: vmess
     server: 104.16.60.8
     port: 2053
@@ -1031,7 +1031,7 @@ proxies:
       headers:
         Host: vpnsupportfast.vpnsuortfast.workers.dev
 
-  - name: "⚪November_16_427"
+  - name: '⚪November_16_427'
     type: vmess
     server: jahfkjha.cfd
     port: 443
@@ -1048,7 +1048,7 @@ proxies:
       headers:
         Host: jahfkjha.cfd
 
-  - name: "⚪November_161_429"
+  - name: '⚪November_161_429'
     type: trojan
     server: 172.67.2.238
     port: 2083
@@ -1062,7 +1062,7 @@ proxies:
       headers:
         Host: e9464f45.trauma-2r4.pages.dev
 
-  - name: "⚪November_172_441"
+  - name: '⚪November_172_441'
     type: vmess
     server: 108.181.200.220
     port: 50613
@@ -1074,7 +1074,7 @@ proxies:
     ws-opts:
       path: /
 
-  - name: "⚪November_175_444"
+  - name: '⚪November_175_444'
     type: vmess
     server: hms02opi.fxiaomi.sbs
     port: 443
@@ -1084,14 +1084,14 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: 
+    servername:
     network: ws
     ws-opts:
       path: /link
       headers:
         Host: hms02.fxiaomi.sbs
 
-  - name: "⚪November_177_446"
+  - name: '⚪November_177_446'
     type: vmess
     server: 172.67.196.112
     port: 443
@@ -1108,7 +1108,7 @@ proxies:
       headers:
         Host: linde06.indiavideo.sbs
 
-  - name: "⚪November_178_447"
+  - name: '⚪November_178_447'
     type: vmess
     server: us3e-mmnnfr9dop0.v2freevpn.com
     port: 80
@@ -1120,7 +1120,7 @@ proxies:
     ws-opts:
       path: /v118-fccxmxm35
 
-  - name: "⚪November_179_448"
+  - name: '⚪November_179_448'
     type: trojan
     server: 198.41.220.83
     port: 443
@@ -1134,7 +1134,7 @@ proxies:
       headers:
         Host: jobscareertoday.com
 
-  - name: "⚪November_18_449"
+  - name: '⚪November_18_449'
     type: ss
     server: series-a2.varzesh360.co
     port: 443
@@ -1142,7 +1142,7 @@ proxies:
     password: mps3FwmDjLrWaOVg
     udp: true
 
-  - name: "⚪November_184_454"
+  - name: '⚪November_184_454'
     type: vmess
     server: 95.179.128.114
     port: 80
@@ -1156,7 +1156,7 @@ proxies:
       headers:
         Host: 95.179.128.114
 
-  - name: "⚪November_19_460"
+  - name: '⚪November_19_460'
     type: vmess
     server: 104.16.60.8
     port: 2095
@@ -1170,7 +1170,7 @@ proxies:
       headers:
         Host: xxxxx73cream-073cxxxxxxxx.cogoni7748.workers.dev
 
-  - name: "⚪November_197_468"
+  - name: '⚪November_197_468'
     type: trojan
     server: 198.41.220.8
     port: 443
@@ -1184,7 +1184,7 @@ proxies:
       headers:
         Host: jobscareerforstudent.com
 
-  - name: "⚪November_198_469"
+  - name: '⚪November_198_469'
     type: vmess
     server: 172.67.170.103
     port: 2095
@@ -1198,7 +1198,7 @@ proxies:
       headers:
         Host: yaghoob55freenodes.repaco69437403.workers.dev
 
-  - name: "⚪November_2_471"
+  - name: '⚪November_2_471'
     type: ss
     server: 77.83.246.74
     port: 33320
@@ -1206,7 +1206,7 @@ proxies:
     password: 4Zwn5rmrUddm1PcGThN114
     udp: true
 
-  - name: "⚪November_203_476"
+  - name: '⚪November_203_476'
     type: vmess
     server: 188.114.97.2
     port: 443
@@ -1223,7 +1223,7 @@ proxies:
       headers:
         Host: hdfy6c5.cpionline.co
 
-  - name: "⚪November_204_477"
+  - name: '⚪November_204_477'
     type: trojan
     server: 190.93.246.247
     port: 443
@@ -1237,7 +1237,7 @@ proxies:
       headers:
         Host: jobscareerforlawyers.com
 
-  - name: "⚪November_205_478"
+  - name: '⚪November_205_478'
     type: vmess
     server: 104.16.60.8
     port: 2095
@@ -1251,7 +1251,7 @@ proxies:
       headers:
         Host: icy-tooth-3d05.plzthsmdnss-7d8ly.workers.dev
 
-  - name: "⚪November_206_479"
+  - name: '⚪November_206_479'
     type: vmess
     server: denc36.xtooltech.cfd
     port: 443
@@ -1268,7 +1268,7 @@ proxies:
       headers:
         Host: adenc36v.xtooltech.cfd
 
-  - name: "⚪November_21_483"
+  - name: '⚪November_21_483'
     type: vmess
     server: 104.16.61.8
     port: 80
@@ -1282,7 +1282,7 @@ proxies:
       headers:
         Host: d396-flower-d396.megare7260.workers.dev
 
-  - name: "⚪November_211_485"
+  - name: '⚪November_211_485'
     type: vmess
     server: 104.21.24.170
     port: 443
@@ -1299,7 +1299,7 @@ proxies:
       headers:
         Host: adenc36v.xtooltech.cfd
 
-  - name: "⚪November_216_490"
+  - name: '⚪November_216_490'
     type: vmess
     server: 104.16.67.38
     port: 8880
@@ -1313,7 +1313,7 @@ proxies:
       headers:
         Host: worker-divine-hat-02d6.savofir317.workers.dev
 
-  - name: "⚪November_22_494"
+  - name: '⚪November_22_494'
     type: vmess
     server: 172.67.164.164
     port: 443
@@ -1330,7 +1330,7 @@ proxies:
       headers:
         Host: afrhms07.xfixedfloat.cfd
 
-  - name: "⚪November_224_499"
+  - name: '⚪November_224_499'
     type: vmess
     server: 104.16.67.38
     port: 2087
@@ -1347,7 +1347,7 @@ proxies:
       headers:
         Host: hyfhhg.jadovah977.workers.dev
 
-  - name: "⚪November_225_500"
+  - name: '⚪November_225_500'
     type: vmess
     server: hms08.gwdef.sbs
     port: 443
@@ -1364,7 +1364,7 @@ proxies:
       headers:
         Host: gwdef.sbs
 
-  - name: "⚪November_229_504"
+  - name: '⚪November_229_504'
     type: vmess
     server: 104.19.45.240
     port: 2095
@@ -1378,7 +1378,7 @@ proxies:
       headers:
         Host: onea.flha.ru
 
-  - name: "⚪November_23_505"
+  - name: '⚪November_23_505'
     type: trojan
     server: 198.41.220.2
     port: 443
@@ -1392,7 +1392,7 @@ proxies:
       headers:
         Host: jobscareerfortoday.com
 
-  - name: "⚪November_233_509"
+  - name: '⚪November_233_509'
     type: trojan
     server: 162.159.152.2
     port: 443
@@ -1406,7 +1406,7 @@ proxies:
       headers:
         Host: jobscareerforlawyers.com
 
-  - name: "⚪November_238_514"
+  - name: '⚪November_238_514'
     type: vmess
     server: 104.16.61.8
     port: 8880
@@ -1420,7 +1420,7 @@ proxies:
       headers:
         Host: worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev
 
-  - name: "⚪November_24_516"
+  - name: '⚪November_24_516'
     type: ss
     server: series-a2-mec.varzesh360.co
     port: 443
@@ -1428,7 +1428,7 @@ proxies:
     password: u17T3BvpYaaiuW2c
     udp: true
 
-  - name: "⚪November_245_522"
+  - name: '⚪November_245_522'
     type: trojan
     server: 104.17.215.2
     port: 443
@@ -1442,7 +1442,7 @@ proxies:
       headers:
         Host: jobscareerforstudent.com
 
-  - name: "⚪November_246_523"
+  - name: '⚪November_246_523'
     type: vmess
     server: 104.16.60.8
     port: 2083
@@ -1459,7 +1459,7 @@ proxies:
       headers:
         Host: 7hss-butterfly-d4c3.fijetem432.workers.dev
 
-  - name: "⚪November_251_529"
+  - name: '⚪November_251_529'
     type: trojan
     server: 104.18.34.21
     port: 443
@@ -1473,7 +1473,7 @@ proxies:
       headers:
         Host: e9464f45.trauma-2r4.pages.dev
 
-  - name: "⚪November_256_534"
+  - name: '⚪November_256_534'
     type: vmess
     server: 104.16.60.8
     port: 2096
@@ -1490,7 +1490,7 @@ proxies:
       headers:
         Host: r-wispy-meadow-9221.fosoka9932.workers.dev
 
-  - name: "⚪November_258_536"
+  - name: '⚪November_258_536'
     type: trojan
     server: 104.16.192.1
     port: 443
@@ -1504,7 +1504,7 @@ proxies:
       headers:
         Host: sherasheba.com
 
-  - name: "⚪November_260_539"
+  - name: '⚪November_260_539'
     type: vmess
     server: 104.16.67.38
     port: 443
@@ -1521,7 +1521,7 @@ proxies:
       headers:
         Host: us3e-mmnnfr9dop0.v2freevpn.com
 
-  - name: "⚪November_262_541"
+  - name: '⚪November_262_541'
     type: vmess
     server: linde06.indiavideo.sbs
     port: 443
@@ -1531,14 +1531,14 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: 
+    servername:
     network: ws
     ws-opts:
       path: /linkws
       headers:
         Host: linde06.indiavideo.sbs
 
-  - name: "⚪November_264_543"
+  - name: '⚪November_264_543'
     type: vmess
     server: jahfkjha.cfd
     port: 443
@@ -1548,14 +1548,14 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: 
+    servername:
     network: ws
     ws-opts:
       path: /linkws
       headers:
         Host: jahfkjha.cfd
 
-  - name: "⚪November_265_544"
+  - name: '⚪November_265_544'
     type: vmess
     server: 104.16.67.38
     port: 80
@@ -1569,7 +1569,7 @@ proxies:
       headers:
         Host: us3e-mmnnfr9dop0.v2freevpn.com
 
-  - name: "⚪November_27_549"
+  - name: '⚪November_27_549'
     type: vmess
     server: 103.85.25.134
     port: 55218
@@ -1578,7 +1578,7 @@ proxies:
     cipher: auto
     udp: true
 
-  - name: "⚪November_273_553"
+  - name: '⚪November_273_553'
     type: vmess
     server: 23.162.200.227
     port: 443
@@ -1588,12 +1588,12 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: 
+    servername:
     network: ws
     ws-opts:
       path: /linkvws
 
-  - name: "⚪November_28_559"
+  - name: '⚪November_28_559'
     type: vmess
     server: 172.67.138.140
     port: 443
@@ -1610,7 +1610,7 @@ proxies:
       headers:
         Host: jahfkjha.cfd
 
-  - name: "⚪November_283_563"
+  - name: '⚪November_283_563'
     type: trojan
     server: 194.53.53.4
     port: 443
@@ -1624,7 +1624,7 @@ proxies:
       headers:
         Host: e9464f45.trauma-2r4.pages.dev
 
-  - name: "⚪November_288_568"
+  - name: '⚪November_288_568'
     type: vmess
     server: 23.134.91.119
     port: 443
@@ -1634,14 +1634,14 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: 
+    servername:
     network: ws
     ws-opts:
       path: /linkvws
       headers:
         Host: 23.134.91.119
 
-  - name: "⚪November_289_569"
+  - name: '⚪November_289_569'
     type: vmess
     server: 188.114.97.3
     port: 443
@@ -1658,7 +1658,7 @@ proxies:
       headers:
         Host: linde06.indiavideo.sbs
 
-  - name: "⚪November_29_570"
+  - name: '⚪November_29_570'
     type: vmess
     server: 104.19.45.235
     port: 2095
@@ -1672,7 +1672,7 @@ proxies:
       headers:
         Host: onea.flha.ru
 
-  - name: "⚪November_293_574"
+  - name: '⚪November_293_574'
     type: vmess
     server: 104.19.45.75
     port: 2095
@@ -1686,7 +1686,7 @@ proxies:
       headers:
         Host: onea.flha.ru
 
-  - name: "⚪November_297_577"
+  - name: '⚪November_297_577'
     type: vmess
     server: 104.18.220.84
     port: 443
@@ -1699,9 +1699,9 @@ proxies:
     servername: hdfy8c1.cpionline.co
     network: grpc
     grpc-opts:
-      grpc-service-name: "Av8czorIlYC5KffvrsN6rqb"
+      grpc-service-name: 'Av8czorIlYC5KffvrsN6rqb'
 
-  - name: "⚪November_298_578"
+  - name: '⚪November_298_578'
     type: vmess
     server: 108.181.200.220
     port: 17163
@@ -1710,7 +1710,7 @@ proxies:
     cipher: auto
     udp: true
 
-  - name: "⚪November_3_580"
+  - name: '⚪November_3_580'
     type: ss
     server: series-a2.samanehha.co
     port: 443
@@ -1718,7 +1718,7 @@ proxies:
     password: mps3FwmDjLrWaOVg
     udp: true
 
-  - name: "⚪November_300_582"
+  - name: '⚪November_300_582'
     type: vmess
     server: 172.67.170.13
     port: 443
@@ -1735,7 +1735,7 @@ proxies:
       headers:
         Host: linde06.indiavideo.sbs
 
-  - name: "⚪November_302_584"
+  - name: '⚪November_302_584'
     type: trojan
     server: 198.41.220.16
     port: 443
@@ -1749,7 +1749,7 @@ proxies:
       headers:
         Host: avianrecruit.com
 
-  - name: "⚪November_305_587"
+  - name: '⚪November_305_587'
     type: trojan
     server: 104.17.147.5
     port: 443
@@ -1763,7 +1763,7 @@ proxies:
       headers:
         Host: jobscareertoday.com
 
-  - name: "⚪November_309_591"
+  - name: '⚪November_309_591'
     type: vmess
     server: jahfkjha.cfd
     port: 443
@@ -1773,12 +1773,12 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: 
+    servername:
     network: ws
     ws-opts:
       path: /linkws
 
-  - name: "⚪November_317_600"
+  - name: '⚪November_317_600'
     type: trojan
     server: 104.17.147.11
     port: 443
@@ -1792,7 +1792,7 @@ proxies:
       headers:
         Host: jobscareerfortoday.com
 
-  - name: "⚪November_320_604"
+  - name: '⚪November_320_604'
     type: vmess
     server: 172.67.170.75
     port: 80
@@ -1806,7 +1806,7 @@ proxies:
       headers:
         Host: us3e-mmnnfr9dop0.v2freevpn.com
 
-  - name: "⚪November_329_613"
+  - name: '⚪November_329_613'
     type: trojan
     server: 188.114.99.222
     port: 443
@@ -1820,7 +1820,7 @@ proxies:
       headers:
         Host: migekehcode27.kiwaja6458.workers.dev
 
-  - name: "⚪November_33_614"
+  - name: '⚪November_33_614'
     type: trojan
     server: 104.19.159.144
     port: 443
@@ -1834,7 +1834,7 @@ proxies:
       headers:
         Host: avianrecruit.com
 
-  - name: "⚪November_330_615"
+  - name: '⚪November_330_615'
     type: vmess
     server: 104.21.69.44
     port: 443
@@ -1851,7 +1851,7 @@ proxies:
       headers:
         Host: jahfkjha.cfd
 
-  - name: "⚪November_334_619"
+  - name: '⚪November_334_619'
     type: vmess
     server: 104.16.67.38
     port: 2087
@@ -1868,7 +1868,7 @@ proxies:
       headers:
         Host: worker-bitter-math-2af8.waxoha3621.workers.dev
 
-  - name: "⚪November_338_623"
+  - name: '⚪November_338_623'
     type: ss
     server: 142.4.216.225
     port: 80
@@ -1876,7 +1876,7 @@ proxies:
     password: JIhN6rBKkaEboLNXVSv5rq
     udp: true
 
-  - name: "⚪November_339_624"
+  - name: '⚪November_339_624'
     type: trojan
     server: lol.ps
     port: 443
@@ -1890,7 +1890,7 @@ proxies:
       headers:
         Host: avianrecruit.com
 
-  - name: "⚪November_344_630"
+  - name: '⚪November_344_630'
     type: trojan
     server: 104.21.47.176
     port: 443
@@ -1900,9 +1900,9 @@ proxies:
     skip-cert-verify: true
     network: grpc
     grpc-opts:
-      grpc-service-name: "xw7uebRG4KlUXGGYTVEagC5V7fI"
+      grpc-service-name: 'xw7uebRG4KlUXGGYTVEagC5V7fI'
 
-  - name: "⚪November_347_633"
+  - name: '⚪November_347_633'
     type: vmess
     server: cold-dawn-9246.fly.dev
     port: 443
@@ -1919,7 +1919,7 @@ proxies:
       headers:
         Host: cold-dawn-9246.fly.dev
 
-  - name: "⚪November_36_647"
+  - name: '⚪November_36_647'
     type: vmess
     server: 50.114.243.61
     port: 43834
@@ -1928,7 +1928,7 @@ proxies:
     cipher: auto
     udp: true
 
-  - name: "⚪November_361_649"
+  - name: '⚪November_361_649'
     type: ss
     server: shadowsocks.ctsubvpn.ggff.net
     port: 2927
@@ -1936,7 +1936,7 @@ proxies:
     password: ug4Fu79SEREdFGlt2sUyT4
     udp: true
 
-  - name: "⚪November_363_651"
+  - name: '⚪November_363_651'
     type: trojan
     server: 172.67.213.48
     port: 443
@@ -1950,7 +1950,7 @@ proxies:
       headers:
         Host: esetsecuritylicense2.wawafec355.workers.dev
 
-  - name: "⚪November_365_653"
+  - name: '⚪November_365_653'
     type: vmess
     server: cold-dawn-9246.fly.dev
     port: 443
@@ -1960,12 +1960,12 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: 
+    servername:
     network: ws
     ws-opts:
       path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
 
-  - name: "⚪November_367_655"
+  - name: '⚪November_367_655'
     type: vmess
     server: 104.16.60.8
     port: 8880
@@ -1979,7 +1979,7 @@ proxies:
       headers:
         Host: d396-flower-d396.megare7260.workers.dev
 
-  - name: "⚪November_368_656"
+  - name: '⚪November_368_656'
     type: vmess
     server: 104.17.88.212
     port: 443
@@ -1996,7 +1996,7 @@ proxies:
       headers:
         Host: worker-bitter-math-2af8.waxoha3621.workers.dev
 
-  - name: "⚪November_37_658"
+  - name: '⚪November_37_658'
     type: vmess
     server: 103.159.206.35
     port: 31945
@@ -2008,7 +2008,7 @@ proxies:
     ws-opts:
       path: /
 
-  - name: "⚪November_371_660"
+  - name: '⚪November_371_660'
     type: trojan
     server: 104.17.61.7
     port: 443
@@ -2022,7 +2022,7 @@ proxies:
       headers:
         Host: jobscareerfortoday.com
 
-  - name: "⚪November_379_668"
+  - name: '⚪November_379_668'
     type: vmess
     server: 104.16.61.8
     port: 2053
@@ -2039,7 +2039,7 @@ proxies:
       headers:
         Host: worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev
 
-  - name: "⚪November_38_669"
+  - name: '⚪November_38_669'
     type: ss
     server: 205.134.180.145
     port: 443
@@ -2047,7 +2047,7 @@ proxies:
     password: hgLCgfLRgB6d
     udp: true
 
-  - name: "⚪November_382_672"
+  - name: '⚪November_382_672'
     type: vmess
     server: 188.114.97.6
     port: 443
@@ -2064,7 +2064,7 @@ proxies:
       headers:
         Host: linde06.indiavideo.sbs
 
-  - name: "⚪November_385_675"
+  - name: '⚪November_385_675'
     type: vmess
     server: 104.21.83.115
     port: 443
@@ -2081,7 +2081,7 @@ proxies:
       headers:
         Host: hms02.fxiaomi.sbs
 
-  - name: "⚪November_386_676"
+  - name: '⚪November_386_676'
     type: trojan
     server: 198.41.220.4
     port: 443
@@ -2095,7 +2095,7 @@ proxies:
       headers:
         Host: jobscareerforlawyers.com
 
-  - name: "⚪November_39_680"
+  - name: '⚪November_39_680'
     type: trojan
     server: 104.16.159.6
     port: 443
@@ -2109,7 +2109,7 @@ proxies:
       headers:
         Host: bangladeshipatri.com
 
-  - name: "⚪November_391_682"
+  - name: '⚪November_391_682'
     type: vmess
     server: astrovpn-official.astrovpn-official.workers.dev
     port: 443
@@ -2126,7 +2126,7 @@ proxies:
       headers:
         Host: gwdef.sbs
 
-  - name: "⚪November_392_683"
+  - name: '⚪November_392_683'
     type: vmess
     server: 188.114.97.1
     port: 443
@@ -2143,7 +2143,7 @@ proxies:
       headers:
         Host: linde06.indiavideo.sbs
 
-  - name: "⚪November_393_684"
+  - name: '⚪November_393_684'
     type: vmess
     server: 188.114.96.3
     port: 443
@@ -2160,7 +2160,7 @@ proxies:
       headers:
         Host: linde06.indiavideo.sbs
 
-  - name: "⚪November_396_687"
+  - name: '⚪November_396_687'
     type: trojan
     server: 198.41.220.5
     port: 443
@@ -2174,7 +2174,7 @@ proxies:
       headers:
         Host: jobscareertoday.com
 
-  - name: "⚪November_40_692"
+  - name: '⚪November_40_692'
     type: vmess
     server: 172.67.130.140
     port: 2082
@@ -2188,7 +2188,7 @@ proxies:
       headers:
         Host: s1c.v2.v001sss.xyz
 
-  - name: "⚪November_414_708"
+  - name: '⚪November_414_708'
     type: vmess
     server: 104.16.61.8
     port: 2096
@@ -2205,7 +2205,7 @@ proxies:
       headers:
         Host: late-wave-1d0a.lesijo3430.workers.dev
 
-  - name: "⚪November_422_717"
+  - name: '⚪November_422_717'
     type: vmess
     server: 104.21.23.231
     port: 2095
@@ -2219,7 +2219,7 @@ proxies:
       headers:
         Host: onea.flha.ru
 
-  - name: "⚪November_43_725"
+  - name: '⚪November_43_725'
     type: vmess
     server: hms082.gwdef.sbs
     port: 443
@@ -2236,7 +2236,7 @@ proxies:
       headers:
         Host: gwdef.sbs
 
-  - name: "⚪November_432_728"
+  - name: '⚪November_432_728'
     type: vmess
     server: 188.114.96.1
     port: 443
@@ -2253,7 +2253,7 @@ proxies:
       headers:
         Host: afrhms16v.bestxray.buzz
 
-  - name: "⚪November_434_730"
+  - name: '⚪November_434_730'
     type: vmess
     server: 104.16.60.8
     port: 2086
@@ -2267,7 +2267,7 @@ proxies:
       headers:
         Host: worker-lingering-fog-c021.gesofog870.workers.dev
 
-  - name: "⚪November_44_736"
+  - name: '⚪November_44_736'
     type: ss
     server: 205.134.180.147
     port: 443
@@ -2275,7 +2275,7 @@ proxies:
     password: 9Bvkw5aupNy8
     udp: true
 
-  - name: "⚪November_45_747"
+  - name: '⚪November_45_747'
     type: trojan
     server: 104.17.147.77
     port: 443
@@ -2289,7 +2289,7 @@ proxies:
       headers:
         Host: bangladeshipatri.com
 
-  - name: "⚪November_457_755"
+  - name: '⚪November_457_755'
     type: vmess
     server: 195.123.240.45
     port: 12947
@@ -2299,12 +2299,12 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: 
+    servername:
     network: ws
     ws-opts:
       path: /
 
-  - name: "⚪November_465_764"
+  - name: '⚪November_465_764'
     type: vmess
     server: 185.146.173.59
     port: 443
@@ -2321,7 +2321,7 @@ proxies:
       headers:
         Host: obdii.cfd
 
-  - name: "⚪November_468_767"
+  - name: '⚪November_468_767'
     type: vmess
     server: 104.18.25.92
     port: 2052
@@ -2335,7 +2335,7 @@ proxies:
       headers:
         Host: mysan2.jaquay22.workers.dev
 
-  - name: "⚪November_471_771"
+  - name: '⚪November_471_771'
     type: vmess
     server: 104.16.61.8
     port: 2096
@@ -2352,7 +2352,7 @@ proxies:
       headers:
         Host: 4868-poetry-4868.napora7003.workers.dev
 
-  - name: "⚪November_480_780"
+  - name: '⚪November_480_780'
     type: vmess
     server: 104.16.60.8
     port: 2053
@@ -2369,7 +2369,7 @@ proxies:
       headers:
         Host: worker-lingering-fog-c021.gesofog870.workers.dev
 
-  - name: "⚪November_49_790"
+  - name: '⚪November_49_790'
     type: trojan
     server: 104.17.215.18
     port: 443
@@ -2383,7 +2383,7 @@ proxies:
       headers:
         Host: jobscareerforstudent.com
 
-  - name: "⚪November_499_800"
+  - name: '⚪November_499_800'
     type: vmess
     server: obdii.cfd
     port: 443
@@ -2393,12 +2393,12 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: 
+    servername:
     network: ws
     ws-opts:
       path: /linkws
 
-  - name: "⚪November_5_801"
+  - name: '⚪November_5_801'
     type: ss
     server: series-a2-me.samanehha.co
     port: 443
@@ -2406,7 +2406,7 @@ proxies:
     password: Bog0ELmMM9DSxDdQ
     udp: true
 
-  - name: "⚪November_511_815"
+  - name: '⚪November_511_815'
     type: vmess
     server: 66.241.124.229
     port: 443
@@ -2423,7 +2423,7 @@ proxies:
       headers:
         Host: cold-dawn-9246.fly.dev
 
-  - name: "⚪November_518_822"
+  - name: '⚪November_518_822'
     type: vmess
     server: 104.21.94.64
     port: 443
@@ -2440,7 +2440,7 @@ proxies:
       headers:
         Host: linja05.hwcar.sbs
 
-  - name: "⚪November_520_825"
+  - name: '⚪November_520_825'
     type: vmess
     server: 188.114.97.1
     port: 443
@@ -2457,7 +2457,7 @@ proxies:
       headers:
         Host: afrhms16v.bestxray.buzz
 
-  - name: "⚪November_522_827"
+  - name: '⚪November_522_827'
     type: trojan
     server: 172.67.149.124
     port: 443
@@ -2467,9 +2467,9 @@ proxies:
     skip-cert-verify: true
     network: grpc
     grpc-opts:
-      grpc-service-name: "xw7uebRG4KlUXGGYTVEagC5V7fI"
+      grpc-service-name: 'xw7uebRG4KlUXGGYTVEagC5V7fI'
 
-  - name: "⚪November_524_829"
+  - name: '⚪November_524_829'
     type: vmess
     server: 172.67.219.194
     port: 443
@@ -2486,7 +2486,7 @@ proxies:
       headers:
         Host: adenc36v.xtooltech.cfd
 
-  - name: "⚪November_53_835"
+  - name: '⚪November_53_835'
     type: vmess
     server: onea.flha.ru
     port: 2095
@@ -2500,7 +2500,7 @@ proxies:
       headers:
         Host: onea.flha.ru
 
-  - name: "⚪November_535_841"
+  - name: '⚪November_535_841'
     type: trojan
     server: 104.18.13.229
     port: 2053
@@ -2514,7 +2514,7 @@ proxies:
       headers:
         Host: e9464f45.trauma-2r4.pages.dev
 
-  - name: "⚪November_541_848"
+  - name: '⚪November_541_848'
     type: vmess
     server: lol.ps
     port: 2052
@@ -2528,7 +2528,7 @@ proxies:
       headers:
         Host: mysan2.jaquay22.workers.dev
 
-  - name: "⚪November_547_854"
+  - name: '⚪November_547_854'
     type: vmess
     server: 104.16.61.8
     port: 8880
@@ -2542,7 +2542,7 @@ proxies:
       headers:
         Host: 8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev
 
-  - name: "⚪November_55_857"
+  - name: '⚪November_55_857'
     type: ss
     server: series-a2-me.varzesh360.co
     port: 443
@@ -2550,7 +2550,7 @@ proxies:
     password: Bog0ELmMM9DSxDdQ
     udp: true
 
-  - name: "⚪November_555_863"
+  - name: '⚪November_555_863'
     type: trojan
     server: 162.159.136.232
     port: 8443
@@ -2564,7 +2564,7 @@ proxies:
       headers:
         Host: e9464f45.trauma-2r4.pages.dev
 
-  - name: "⚪November_567_876"
+  - name: '⚪November_567_876'
     type: vmess
     server: 104.18.24.92
     port: 2052
@@ -2578,7 +2578,7 @@ proxies:
       headers:
         Host: mysan2.jaquay22.workers.dev
 
-  - name: "⚪November_568_877"
+  - name: '⚪November_568_877'
     type: trojan
     server: 172.67.139.4
     port: 2053
@@ -2592,7 +2592,7 @@ proxies:
       headers:
         Host: ip-cf.hukinghumans-655.WorkeRs.dEv
 
-  - name: "⚪November_57_879"
+  - name: '⚪November_57_879'
     type: trojan
     server: 104.16.159.7
     port: 443
@@ -2606,7 +2606,7 @@ proxies:
       headers:
         Host: bangladeshipatri.com
 
-  - name: "⚪November_579_889"
+  - name: '⚪November_579_889'
     type: vmess
     server: 104.16.67.38
     port: 2096
@@ -2623,7 +2623,7 @@ proxies:
       headers:
         Host: worker-damp-duadwans.jevesoj131.workers.dev
 
-  - name: "⚪November_580_891"
+  - name: '⚪November_580_891'
     type: vmess
     server: 104.19.45.85
     port: 2095
@@ -2637,7 +2637,7 @@ proxies:
       headers:
         Host: onea.flha.ru
 
-  - name: "⚪November_582_893"
+  - name: '⚪November_582_893'
     type: vmess
     server: 104.16.60.8
     port: 2053
@@ -2654,7 +2654,7 @@ proxies:
       headers:
         Host: square-snowflake-486a.beshir-beisel.workers.dev
 
-  - name: "⚪November_584_895"
+  - name: '⚪November_584_895'
     type: vmess
     server: 104.16.61.8
     port: 2083
@@ -2671,7 +2671,7 @@ proxies:
       headers:
         Host: 6ba6-sound-6ba6.siliy37818.workers.dev
 
-  - name: "⚪November_589_899"
+  - name: '⚪November_589_899'
     type: vmess
     server: 104.16.60.8
     port: 80
@@ -2685,7 +2685,7 @@ proxies:
       headers:
         Host: hdfy6c1.freelines.net
 
-  - name: "⚪November_59_900"
+  - name: '⚪November_59_900'
     type: vmess
     server: 172.67.131.108
     port: 443
@@ -2702,7 +2702,7 @@ proxies:
       headers:
         Host: hms02.fxiaomi.sbs
 
-  - name: "⚪November_595_906"
+  - name: '⚪November_595_906'
     type: ss
     server: 64.227.144.190
     port: 50690
@@ -2710,7 +2710,7 @@ proxies:
     password: 3PiNbHH0gSHsiXw7Qh4VYV
     udp: true
 
-  - name: "⚪November_6_911"
+  - name: '⚪November_6_911'
     type: trojan
     server: 104.18.22.19
     port: 443
@@ -2724,7 +2724,7 @@ proxies:
       headers:
         Host: jobscareerforstudent.com
 
-  - name: "⚪November_606_919"
+  - name: '⚪November_606_919'
     type: vmess
     server: 188.114.97.16
     port: 443
@@ -2737,9 +2737,9 @@ proxies:
     servername: hdfy6c5.cpionline.co
     network: grpc
     grpc-opts:
-      grpc-service-name: "lRkGCkYS9X5GFzoZoavn2kmJ"
+      grpc-service-name: 'lRkGCkYS9X5GFzoZoavn2kmJ'
 
-  - name: "⚪November_61_923"
+  - name: '⚪November_61_923'
     type: vmess
     server: 172.67.174.42
     port: 443
@@ -2756,7 +2756,7 @@ proxies:
       headers:
         Host: gwdef.sbs
 
-  - name: "⚪November_618_932"
+  - name: '⚪November_618_932'
     type: trojan
     server: flixeon.me
     port: 443
@@ -2766,9 +2766,9 @@ proxies:
     skip-cert-verify: true
     network: grpc
     grpc-opts:
-      grpc-service-name: "xw7uebRG4KlUXGGYTVEagC5V7fI"
+      grpc-service-name: 'xw7uebRG4KlUXGGYTVEagC5V7fI'
 
-  - name: "⚪November_619_933"
+  - name: '⚪November_619_933'
     type: vmess
     server: 104.16.61.8
     port: 8443
@@ -2785,7 +2785,7 @@ proxies:
       headers:
         Host: xxxxx73cream-073cxxxxxxxx.cogoni7748.workers.dev
 
-  - name: "⚪November_626_941"
+  - name: '⚪November_626_941'
     type: vmess
     server: 104.16.61.8
     port: 80
@@ -2799,7 +2799,7 @@ proxies:
       headers:
         Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
 
-  - name: "⚪November_627_942"
+  - name: '⚪November_627_942'
     type: vmess
     server: 173.245.58.5
     port: 443
@@ -2816,7 +2816,7 @@ proxies:
       headers:
         Host: worker-bitter-math-2af8.waxoha3621.workers.dev
 
-  - name: "⚪November_628_943"
+  - name: '⚪November_628_943'
     type: vmess
     server: 104.16.60.8
     port: 2086
@@ -2830,7 +2830,7 @@ proxies:
       headers:
         Host: 1c11-muddy-rice-1c11.vetanex501.workers.dev
 
-  - name: "⚪November_63_945"
+  - name: '⚪November_63_945'
     type: trojan
     server: 198.41.220.12
     port: 443
@@ -2844,7 +2844,7 @@ proxies:
       headers:
         Host: jobscareerforlawyers.com
 
-  - name: "⚪November_637_953"
+  - name: '⚪November_637_953'
     type: vmess
     server: 172.67.204.84
     port: 443
@@ -2861,7 +2861,7 @@ proxies:
       headers:
         Host: jahfkjha.cfd
 
-  - name: "⚪November_645_962"
+  - name: '⚪November_645_962'
     type: vmess
     server: 104.16.67.38
     port: 2082
@@ -2875,7 +2875,7 @@ proxies:
       headers:
         Host: late-wave-1d0a.lesijo3430.workers.dev
 
-  - name: "⚪November_653_971"
+  - name: '⚪November_653_971'
     type: vmess
     server: 185.146.173.59
     port: 443
@@ -2892,7 +2892,7 @@ proxies:
       headers:
         Host: hms02.fxiaomi.sbs
 
-  - name: "⚪November_660_978"
+  - name: '⚪November_660_978'
     type: vmess
     server: 104.16.60.8
     port: 2095
@@ -2906,7 +2906,7 @@ proxies:
       headers:
         Host: ury-unit-c030ehei8.poget71138.workers.dev
 
-  - name: "⚪November_667_985"
+  - name: '⚪November_667_985'
     type: trojan
     server: 162.159.128.233
     port: 8443
@@ -2920,7 +2920,7 @@ proxies:
       headers:
         Host: e9464f45.trauma-2r4.pages.dev
 
-  - name: "⚪November_67_988"
+  - name: '⚪November_67_988'
     type: vmess
     server: npmjs.com
     port: 443
@@ -2937,7 +2937,7 @@ proxies:
       headers:
         Host: hdfy1c2.freeairlaines.com
 
-  - name: "⚪November_672_991"
+  - name: '⚪November_672_991'
     type: vmess
     server: 104.16.60.8
     port: 8443
@@ -2954,7 +2954,7 @@ proxies:
       headers:
         Host: y-old-mode-9c0diab.wiriy73548.workers.dev
 
-  - name: "⚪November_679_998"
+  - name: '⚪November_679_998'
     type: trojan
     server: 104.21.44.210
     port: 443
@@ -2968,7 +2968,7 @@ proxies:
       headers:
         Host: esetsecuritylicense1.bwnsmv.workers.dev
 
-  - name: "⚪November_68_999"
+  - name: '⚪November_68_999'
     type: vmess
     server: 172.67.175.56
     port: 443
@@ -2985,7 +2985,7 @@ proxies:
       headers:
         Host: afrhms16v.bestxray.buzz
 
-  - name: "⚪November_681_1001"
+  - name: '⚪November_681_1001'
     type: vmess
     server: codepen.io
     port: 443
@@ -3002,7 +3002,7 @@ proxies:
       headers:
         Host: cool-darkness-e663.mehdipost667.workers.dev
 
-  - name: "⚪November_682_1002"
+  - name: '⚪November_682_1002'
     type: ss
     server: 64.227.144.190
     port: 50690
@@ -3010,7 +3010,7 @@ proxies:
     password: CEA6CczvgBW0Spg3Vib4LS
     udp: true
 
-  - name: "⚪November_684_1004"
+  - name: '⚪November_684_1004'
     type: vmess
     server: linde06.indiavideo.sbs
     port: 443
@@ -3025,7 +3025,7 @@ proxies:
     ws-opts:
       path: /linkws
 
-  - name: "⚪November_69_1010"
+  - name: '⚪November_69_1010'
     type: trojan
     server: 198.41.220.10
     port: 443
@@ -3039,7 +3039,7 @@ proxies:
       headers:
         Host: jobscareerforstudent.com
 
-  - name: "⚪November_692_1013"
+  - name: '⚪November_692_1013'
     type: vmess
     server: 104.16.60.8
     port: 2083
@@ -3056,7 +3056,7 @@ proxies:
       headers:
         Host: worker-damp-duadwans.jevesoj131.workers.dev
 
-  - name: "⚪November_693_1014"
+  - name: '⚪November_693_1014'
     type: vmess
     server: fake.id.workers.dev
     port: 443
@@ -3073,7 +3073,7 @@ proxies:
       headers:
         Host: mysan2.jaquay22.workers.dev
 
-  - name: "⚪November_7_1021"
+  - name: '⚪November_7_1021'
     type: ss
     server: 205.134.180.139
     port: 443
@@ -3081,7 +3081,7 @@ proxies:
     password: lWaGPVFjmnag
     udp: true
 
-  - name: "⚪November_70_1022"
+  - name: '⚪November_70_1022'
     type: vmess
     server: 104.21.8.157
     port: 2082
@@ -3095,7 +3095,7 @@ proxies:
       headers:
         Host: s1c.v2.v001sss.xyz
 
-  - name: "⚪November_701_1024"
+  - name: '⚪November_701_1024'
     type: vmess
     server: 23.162.200.227
     port: 443
@@ -3105,14 +3105,14 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: 
+    servername:
     network: ws
     ws-opts:
       path: /linkvws
       headers:
         Host: 23.162.200.227
 
-  - name: "⚪November_705_1028"
+  - name: '⚪November_705_1028'
     type: vmess
     server: 104.16.61.8
     port: 2083
@@ -3129,7 +3129,7 @@ proxies:
       headers:
         Host: 7whrapid-river-a083.sisay70779.workers.dev
 
-  - name: "⚪November_712_1036"
+  - name: '⚪November_712_1036'
     type: vmess
     server: 104.16.60.8
     port: 2087
@@ -3146,7 +3146,7 @@ proxies:
       headers:
         Host: 7hss-butterfly-d4c3.fijetem432.workers.dev
 
-  - name: "⚪November_72_1044"
+  - name: '⚪November_72_1044'
     type: vmess
     server: 104.16.68.38
     port: 2082
@@ -3160,7 +3160,7 @@ proxies:
       headers:
         Host: r-wispy-meadow-9221.fosoka9932.workers.dev
 
-  - name: "⚪November_733_1059"
+  - name: '⚪November_733_1059'
     type: trojan
     server: 172.66.44.131
     port: 443
@@ -3174,7 +3174,7 @@ proxies:
       headers:
         Host: e9464f45.trauma-2r4.pages.dev
 
-  - name: "⚪November_741_1068"
+  - name: '⚪November_741_1068'
     type: vmess
     server: 104.16.60.8
     port: 2053
@@ -3191,7 +3191,7 @@ proxies:
       headers:
         Host: y-old-mode-9c0diab.wiriy73548.workers.dev
 
-  - name: "⚪November_743_1070"
+  - name: '⚪November_743_1070'
     type: vmess
     server: 104.16.67.38
     port: 2082
@@ -3205,7 +3205,7 @@ proxies:
       headers:
         Host: late-wave-1d0a.lesijo3430.workers.dev
 
-  - name: "⚪November_75_1077"
+  - name: '⚪November_75_1077'
     type: ss
     server: 205.134.180.137
     port: 443
@@ -3213,7 +3213,7 @@ proxies:
     password: g13S7doXar0A
     udp: true
 
-  - name: "⚪November_750_1078"
+  - name: '⚪November_750_1078'
     type: vmess
     server: 172.67.214.33
     port: 2095
@@ -3227,7 +3227,7 @@ proxies:
       headers:
         Host: onea.flha.ru
 
-  - name: "⚪November_752_1080"
+  - name: '⚪November_752_1080'
     type: trojan
     server: 104.26.12.54
     port: 443
@@ -3241,7 +3241,7 @@ proxies:
       headers:
         Host: e9464f45.trauma-2r4.pages.dev
 
-  - name: "⚪November_76_1088"
+  - name: '⚪November_76_1088'
     type: trojan
     server: 104.19.171.3
     port: 443
@@ -3255,7 +3255,7 @@ proxies:
       headers:
         Host: sherasheba.com
 
-  - name: "⚪November_77_1099"
+  - name: '⚪November_77_1099'
     type: ss
     server: 81.19.141.45
     port: 52873
@@ -3263,7 +3263,7 @@ proxies:
     password: CIZAAhQMKlkmW60Isq82PG
     udp: true
 
-  - name: "⚪November_775_1105"
+  - name: '⚪November_775_1105'
     type: vmess
     server: 104.16.61.8
     port: 8880
@@ -3277,7 +3277,7 @@ proxies:
       headers:
         Host: yaghoob55freenodes.repaco69437403.workers.dev
 
-  - name: "⚪November_803_1136"
+  - name: '⚪November_803_1136'
     type: vmess
     server: gt021.bestforxray.buzz
     port: 443
@@ -3294,7 +3294,7 @@ proxies:
       headers:
         Host: ausgt02.bestforxray.buzz
 
-  - name: "⚪November_805_1138"
+  - name: '⚪November_805_1138'
     type: vmess
     server: 104.16.61.8
     port: 2083
@@ -3311,7 +3311,7 @@ proxies:
       headers:
         Host: worker-lingering-fog-c021.gesofog870.workers.dev
 
-  - name: "⚪November_82_1154"
+  - name: '⚪November_82_1154'
     type: ss
     server: 81.19.141.45
     port: 52873
@@ -3319,7 +3319,7 @@ proxies:
     password: BXkeUSabwj1rRTj4cLT3O5
     udp: true
 
-  - name: "⚪November_821_1156"
+  - name: '⚪November_821_1156'
     type: trojan
     server: 104.21.50.74
     port: 443
@@ -3333,7 +3333,7 @@ proxies:
       headers:
         Host: esetsecuritylicense.tobavo5084.workers.dev
 
-  - name: "⚪November_825_1160"
+  - name: '⚪November_825_1160'
     type: trojan
     server: 65.20.115.19
     port: 443
@@ -3342,7 +3342,7 @@ proxies:
     servername: myket.ir
     skip-cert-verify: true
 
-  - name: "⚪November_84_1176"
+  - name: '⚪November_84_1176'
     type: trojan
     server: 104.19.171.9
     port: 443
@@ -3356,7 +3356,7 @@ proxies:
       headers:
         Host: jobscareerfortoday.com
 
-  - name: "⚪November_844_1181"
+  - name: '⚪November_844_1181'
     type: vmess
     server: 104.19.45.2
     port: 2095
@@ -3370,7 +3370,7 @@ proxies:
       headers:
         Host: onea.flha.ru
 
-  - name: "⚪November_845_1182"
+  - name: '⚪November_845_1182'
     type: vmess
     server: 104.16.60.8
     port: 2052
@@ -3384,7 +3384,7 @@ proxies:
       headers:
         Host: late-wave-1d0a.lesijo3430.workers.dev
 
-  - name: "⚪November_85_1187"
+  - name: '⚪November_85_1187'
     type: trojan
     server: 104.19.171.5
     port: 443
@@ -3398,7 +3398,7 @@ proxies:
       headers:
         Host: jobscareerforlawyers.com
 
-  - name: "⚪November_850_1188"
+  - name: '⚪November_850_1188'
     type: trojan
     server: 104.18.23.19
     port: 443
@@ -3412,7 +3412,7 @@ proxies:
       headers:
         Host: jobscareerforstudent.com
 
-  - name: "⚪November_86_1198"
+  - name: '⚪November_86_1198'
     type: vmess
     server: hms19.best-tizi.top
     port: 443
@@ -3429,7 +3429,7 @@ proxies:
       headers:
         Host: hms19.best-tizi.top
 
-  - name: "⚪November_88_1219"
+  - name: '⚪November_88_1219'
     type: trojan
     server: 104.20.6.134
     port: 443
@@ -3443,7 +3443,7 @@ proxies:
       headers:
         Host: e9464f45.trauma-2r4.pages.dev
 
-  - name: "⚪November_880_1220"
+  - name: '⚪November_880_1220'
     type: vmess
     server: 173.245.58.11
     port: 443
@@ -3460,7 +3460,7 @@ proxies:
       headers:
         Host: worker-late28ygwuhw.motonob768.workers.dev
 
-  - name: "⚪November_883_1223"
+  - name: '⚪November_883_1223'
     type: trojan
     server: 162.159.153.2
     port: 443
@@ -3474,7 +3474,7 @@ proxies:
       headers:
         Host: jobscareerforlawyers.com
 
-  - name: "⚪November_89_1230"
+  - name: '⚪November_89_1230'
     type: ss
     server: bgroup.node5.s.nodelist-airport.com
     port: 50001
@@ -3482,7 +3482,7 @@ proxies:
     password: 2155145a-b1b5-443a-8977-670f6bd10f02
     udp: true
 
-  - name: "⚪November_9_1241"
+  - name: '⚪November_9_1241'
     type: ss
     server: 95.164.9.144
     port: 2927
@@ -3490,7 +3490,7 @@ proxies:
     password: ug4Fu79SEREdFGlt2sUyT4
     udp: true
 
-  - name: "⚪November_904_1247"
+  - name: '⚪November_904_1247'
     type: vmess
     server: linde06.indiavideo.sbs
     port: 443
@@ -3500,12 +3500,12 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: 
+    servername:
     network: ws
     ws-opts:
       path: /linkws
 
-  - name: "⚪November_919_1263"
+  - name: '⚪November_919_1263'
     type: ss
     server: series-a2.samanehha.co
     port: 443
@@ -3513,7 +3513,7 @@ proxies:
     password: W74XFALLLuw6m5IA
     udp: true
 
-  - name: "⚪November_92_1264"
+  - name: '⚪November_92_1264'
     type: ss
     server: 81.19.141.45
     port: 52873
@@ -3521,7 +3521,7 @@ proxies:
     password: I1onhFIawC9IpNB2ZE73CK
     udp: true
 
-  - name: "⚪November_93_1275"
+  - name: '⚪November_93_1275'
     type: vmess
     server: 95.179.128.114
     port: 80
@@ -3533,7 +3533,7 @@ proxies:
     ws-opts:
       path: /Av8czorIlYicU6D349brWUw6a
 
-  - name: "⚪November_931_1277"
+  - name: '⚪November_931_1277'
     type: vmess
     server: 104.16.60.8
     port: 2095
@@ -3547,7 +3547,7 @@ proxies:
       headers:
         Host: ury-unit-c030ehei8.poget71138.workers.dev
 
-  - name: "⚪November_943_1290"
+  - name: '⚪November_943_1290'
     type: trojan
     server: 172.67.68.157
     port: 443
@@ -3561,7 +3561,7 @@ proxies:
       headers:
         Host: e9464f45.trauma-2r4.pages.dev
 
-  - name: "⚪November_948_1295"
+  - name: '⚪November_948_1295'
     type: vmess
     server: 104.21.32.238
     port: 443
@@ -3578,7 +3578,7 @@ proxies:
       headers:
         Host: obdii.cfd
 
-  - name: "⚪November_960_1309"
+  - name: '⚪November_960_1309'
     type: vmess
     server: 104.16.61.8
     port: 8080
@@ -3592,7 +3592,7 @@ proxies:
       headers:
         Host: ury-unit-c030ehei8.poget71138.workers.dev
 
-  - name: "⚪November_975_1325"
+  - name: '⚪November_975_1325'
     type: vmess
     server: 172.67.183.220
     port: 443
@@ -3609,7 +3609,7 @@ proxies:
       headers:
         Host: jahfkjha.cfd
 
-  - name: "⚪November_98_1330"
+  - name: '⚪November_98_1330'
     type: trojan
     server: 104.21.90.210
     port: 2053
@@ -3623,7 +3623,7 @@ proxies:
       headers:
         Host: e9464f45.trauma-2r4.pages.dev
 
-  - name: "⚪November_995_1347"
+  - name: '⚪November_995_1347'
     type: vmess
     server: 104.16.60.8
     port: 2087
@@ -3640,7 +3640,7 @@ proxies:
       headers:
         Host: ury-unit-c030ehei8.poget71138.workers.dev
 
-  - name: "⚪November_996_1348"
+  - name: '⚪November_996_1348'
     type: vmess
     server: 185.146.173.129
     port: 443
@@ -3663,261 +3663,261 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - "⚪November_1_1"
-      - "⚪November_1002_6"
-      - "⚪November_101_14"
-      - "⚪November_1020_26"
-      - "⚪November_1022_28"
-      - "⚪November_1038_45"
-      - "⚪November_104_47"
-      - "⚪November_1045_53"
-      - "⚪November_105_58"
-      - "⚪November_1050_59"
-      - "⚪November_1059_68"
-      - "⚪November_1067_77"
-      - "⚪November_1072_83"
-      - "⚪November_1074_85"
-      - "⚪November_1094_105"
-      - "⚪November_1096_107"
-      - "⚪November_11_111"
-      - "⚪November_1102_115"
-      - "⚪November_1106_119"
-      - "⚪November_1107_120"
-      - "⚪November_1128_143"
-      - "⚪November_1139_155"
-      - "⚪November_1142_159"
-      - "⚪November_1155_173"
-      - "⚪November_1159_177"
-      - "⚪November_1172_192"
-      - "⚪November_118_200"
-      - "⚪November_1194_215"
-      - "⚪November_1197_218"
-      - "⚪November_1199_220"
-      - "⚪November_12_221"
-      - "⚪November_120_222"
-      - "⚪November_1202_225"
-      - "⚪November_1203_226"
-      - "⚪November_1212_236"
-      - "⚪November_1214_238"
-      - "⚪November_1229_254"
-      - "⚪November_123_255"
-      - "⚪November_1248_275"
-      - "⚪November_125_277"
-      - "⚪November_1250_278"
-      - "⚪November_1251_279"
-      - "⚪November_1253_281"
-      - "⚪November_1254_282"
-      - "⚪November_126_288"
-      - "⚪November_1261_290"
-      - "⚪November_1265_294"
-      - "⚪November_127_299"
-      - "⚪November_1275_305"
-      - "⚪November_1277_306"
-      - "⚪November_1279_308"
-      - "⚪November_1283_313"
-      - "⚪November_1288_318"
-      - "⚪November_129_320"
-      - "⚪November_1293_324"
-      - "⚪November_1303_336"
-      - "⚪November_1316_350"
-      - "⚪November_1318_352"
-      - "⚪November_132_354"
-      - "⚪November_1345_382"
-      - "⚪November_1347_384"
-      - "⚪November_1348_385"
-      - "⚪November_1359_397"
-      - "⚪November_136_398"
-      - "⚪November_14_406"
-      - "⚪November_144_411"
-      - "⚪November_147_414"
-      - "⚪November_150_417"
-      - "⚪November_152_419"
-      - "⚪November_155_422"
-      - "⚪November_157_424"
-      - "⚪November_158_425"
-      - "⚪November_16_427"
-      - "⚪November_161_429"
-      - "⚪November_172_441"
-      - "⚪November_175_444"
-      - "⚪November_177_446"
-      - "⚪November_178_447"
-      - "⚪November_179_448"
-      - "⚪November_18_449"
-      - "⚪November_184_454"
-      - "⚪November_19_460"
-      - "⚪November_197_468"
-      - "⚪November_198_469"
-      - "⚪November_2_471"
-      - "⚪November_203_476"
-      - "⚪November_204_477"
-      - "⚪November_205_478"
-      - "⚪November_206_479"
-      - "⚪November_21_483"
-      - "⚪November_211_485"
-      - "⚪November_216_490"
-      - "⚪November_22_494"
-      - "⚪November_224_499"
-      - "⚪November_225_500"
-      - "⚪November_229_504"
-      - "⚪November_23_505"
-      - "⚪November_233_509"
-      - "⚪November_238_514"
-      - "⚪November_24_516"
-      - "⚪November_245_522"
-      - "⚪November_246_523"
-      - "⚪November_251_529"
-      - "⚪November_256_534"
-      - "⚪November_258_536"
-      - "⚪November_260_539"
-      - "⚪November_262_541"
-      - "⚪November_264_543"
-      - "⚪November_265_544"
-      - "⚪November_27_549"
-      - "⚪November_273_553"
-      - "⚪November_28_559"
-      - "⚪November_283_563"
-      - "⚪November_288_568"
-      - "⚪November_289_569"
-      - "⚪November_29_570"
-      - "⚪November_293_574"
-      - "⚪November_297_577"
-      - "⚪November_298_578"
-      - "⚪November_3_580"
-      - "⚪November_300_582"
-      - "⚪November_302_584"
-      - "⚪November_305_587"
-      - "⚪November_309_591"
-      - "⚪November_317_600"
-      - "⚪November_320_604"
-      - "⚪November_329_613"
-      - "⚪November_33_614"
-      - "⚪November_330_615"
-      - "⚪November_334_619"
-      - "⚪November_338_623"
-      - "⚪November_339_624"
-      - "⚪November_344_630"
-      - "⚪November_347_633"
-      - "⚪November_36_647"
-      - "⚪November_361_649"
-      - "⚪November_363_651"
-      - "⚪November_365_653"
-      - "⚪November_367_655"
-      - "⚪November_368_656"
-      - "⚪November_37_658"
-      - "⚪November_371_660"
-      - "⚪November_379_668"
-      - "⚪November_38_669"
-      - "⚪November_382_672"
-      - "⚪November_385_675"
-      - "⚪November_386_676"
-      - "⚪November_39_680"
-      - "⚪November_391_682"
-      - "⚪November_392_683"
-      - "⚪November_393_684"
-      - "⚪November_396_687"
-      - "⚪November_40_692"
-      - "⚪November_414_708"
-      - "⚪November_422_717"
-      - "⚪November_43_725"
-      - "⚪November_432_728"
-      - "⚪November_434_730"
-      - "⚪November_44_736"
-      - "⚪November_45_747"
-      - "⚪November_457_755"
-      - "⚪November_465_764"
-      - "⚪November_468_767"
-      - "⚪November_471_771"
-      - "⚪November_480_780"
-      - "⚪November_49_790"
-      - "⚪November_499_800"
-      - "⚪November_5_801"
-      - "⚪November_511_815"
-      - "⚪November_518_822"
-      - "⚪November_520_825"
-      - "⚪November_522_827"
-      - "⚪November_524_829"
-      - "⚪November_53_835"
-      - "⚪November_535_841"
-      - "⚪November_541_848"
-      - "⚪November_547_854"
-      - "⚪November_55_857"
-      - "⚪November_555_863"
-      - "⚪November_567_876"
-      - "⚪November_568_877"
-      - "⚪November_57_879"
-      - "⚪November_579_889"
-      - "⚪November_580_891"
-      - "⚪November_582_893"
-      - "⚪November_584_895"
-      - "⚪November_589_899"
-      - "⚪November_59_900"
-      - "⚪November_595_906"
-      - "⚪November_6_911"
-      - "⚪November_606_919"
-      - "⚪November_61_923"
-      - "⚪November_618_932"
-      - "⚪November_619_933"
-      - "⚪November_626_941"
-      - "⚪November_627_942"
-      - "⚪November_628_943"
-      - "⚪November_63_945"
-      - "⚪November_637_953"
-      - "⚪November_645_962"
-      - "⚪November_653_971"
-      - "⚪November_660_978"
-      - "⚪November_667_985"
-      - "⚪November_67_988"
-      - "⚪November_672_991"
-      - "⚪November_679_998"
-      - "⚪November_68_999"
-      - "⚪November_681_1001"
-      - "⚪November_682_1002"
-      - "⚪November_684_1004"
-      - "⚪November_69_1010"
-      - "⚪November_692_1013"
-      - "⚪November_693_1014"
-      - "⚪November_7_1021"
-      - "⚪November_70_1022"
-      - "⚪November_701_1024"
-      - "⚪November_705_1028"
-      - "⚪November_712_1036"
-      - "⚪November_72_1044"
-      - "⚪November_733_1059"
-      - "⚪November_741_1068"
-      - "⚪November_743_1070"
-      - "⚪November_75_1077"
-      - "⚪November_750_1078"
-      - "⚪November_752_1080"
-      - "⚪November_76_1088"
-      - "⚪November_77_1099"
-      - "⚪November_775_1105"
-      - "⚪November_803_1136"
-      - "⚪November_805_1138"
-      - "⚪November_82_1154"
-      - "⚪November_821_1156"
-      - "⚪November_825_1160"
-      - "⚪November_84_1176"
-      - "⚪November_844_1181"
-      - "⚪November_845_1182"
-      - "⚪November_85_1187"
-      - "⚪November_850_1188"
-      - "⚪November_86_1198"
-      - "⚪November_88_1219"
-      - "⚪November_880_1220"
-      - "⚪November_883_1223"
-      - "⚪November_89_1230"
-      - "⚪November_9_1241"
-      - "⚪November_904_1247"
-      - "⚪November_919_1263"
-      - "⚪November_92_1264"
-      - "⚪November_93_1275"
-      - "⚪November_931_1277"
-      - "⚪November_943_1290"
-      - "⚪November_948_1295"
-      - "⚪November_960_1309"
-      - "⚪November_975_1325"
-      - "⚪November_98_1330"
-      - "⚪November_995_1347"
-      - "⚪November_996_1348"
+      - '⚪November_1_1'
+      - '⚪November_1002_6'
+      - '⚪November_101_14'
+      - '⚪November_1020_26'
+      - '⚪November_1022_28'
+      - '⚪November_1038_45'
+      - '⚪November_104_47'
+      - '⚪November_1045_53'
+      - '⚪November_105_58'
+      - '⚪November_1050_59'
+      - '⚪November_1059_68'
+      - '⚪November_1067_77'
+      - '⚪November_1072_83'
+      - '⚪November_1074_85'
+      - '⚪November_1094_105'
+      - '⚪November_1096_107'
+      - '⚪November_11_111'
+      - '⚪November_1102_115'
+      - '⚪November_1106_119'
+      - '⚪November_1107_120'
+      - '⚪November_1128_143'
+      - '⚪November_1139_155'
+      - '⚪November_1142_159'
+      - '⚪November_1155_173'
+      - '⚪November_1159_177'
+      - '⚪November_1172_192'
+      - '⚪November_118_200'
+      - '⚪November_1194_215'
+      - '⚪November_1197_218'
+      - '⚪November_1199_220'
+      - '⚪November_12_221'
+      - '⚪November_120_222'
+      - '⚪November_1202_225'
+      - '⚪November_1203_226'
+      - '⚪November_1212_236'
+      - '⚪November_1214_238'
+      - '⚪November_1229_254'
+      - '⚪November_123_255'
+      - '⚪November_1248_275'
+      - '⚪November_125_277'
+      - '⚪November_1250_278'
+      - '⚪November_1251_279'
+      - '⚪November_1253_281'
+      - '⚪November_1254_282'
+      - '⚪November_126_288'
+      - '⚪November_1261_290'
+      - '⚪November_1265_294'
+      - '⚪November_127_299'
+      - '⚪November_1275_305'
+      - '⚪November_1277_306'
+      - '⚪November_1279_308'
+      - '⚪November_1283_313'
+      - '⚪November_1288_318'
+      - '⚪November_129_320'
+      - '⚪November_1293_324'
+      - '⚪November_1303_336'
+      - '⚪November_1316_350'
+      - '⚪November_1318_352'
+      - '⚪November_132_354'
+      - '⚪November_1345_382'
+      - '⚪November_1347_384'
+      - '⚪November_1348_385'
+      - '⚪November_1359_397'
+      - '⚪November_136_398'
+      - '⚪November_14_406'
+      - '⚪November_144_411'
+      - '⚪November_147_414'
+      - '⚪November_150_417'
+      - '⚪November_152_419'
+      - '⚪November_155_422'
+      - '⚪November_157_424'
+      - '⚪November_158_425'
+      - '⚪November_16_427'
+      - '⚪November_161_429'
+      - '⚪November_172_441'
+      - '⚪November_175_444'
+      - '⚪November_177_446'
+      - '⚪November_178_447'
+      - '⚪November_179_448'
+      - '⚪November_18_449'
+      - '⚪November_184_454'
+      - '⚪November_19_460'
+      - '⚪November_197_468'
+      - '⚪November_198_469'
+      - '⚪November_2_471'
+      - '⚪November_203_476'
+      - '⚪November_204_477'
+      - '⚪November_205_478'
+      - '⚪November_206_479'
+      - '⚪November_21_483'
+      - '⚪November_211_485'
+      - '⚪November_216_490'
+      - '⚪November_22_494'
+      - '⚪November_224_499'
+      - '⚪November_225_500'
+      - '⚪November_229_504'
+      - '⚪November_23_505'
+      - '⚪November_233_509'
+      - '⚪November_238_514'
+      - '⚪November_24_516'
+      - '⚪November_245_522'
+      - '⚪November_246_523'
+      - '⚪November_251_529'
+      - '⚪November_256_534'
+      - '⚪November_258_536'
+      - '⚪November_260_539'
+      - '⚪November_262_541'
+      - '⚪November_264_543'
+      - '⚪November_265_544'
+      - '⚪November_27_549'
+      - '⚪November_273_553'
+      - '⚪November_28_559'
+      - '⚪November_283_563'
+      - '⚪November_288_568'
+      - '⚪November_289_569'
+      - '⚪November_29_570'
+      - '⚪November_293_574'
+      - '⚪November_297_577'
+      - '⚪November_298_578'
+      - '⚪November_3_580'
+      - '⚪November_300_582'
+      - '⚪November_302_584'
+      - '⚪November_305_587'
+      - '⚪November_309_591'
+      - '⚪November_317_600'
+      - '⚪November_320_604'
+      - '⚪November_329_613'
+      - '⚪November_33_614'
+      - '⚪November_330_615'
+      - '⚪November_334_619'
+      - '⚪November_338_623'
+      - '⚪November_339_624'
+      - '⚪November_344_630'
+      - '⚪November_347_633'
+      - '⚪November_36_647'
+      - '⚪November_361_649'
+      - '⚪November_363_651'
+      - '⚪November_365_653'
+      - '⚪November_367_655'
+      - '⚪November_368_656'
+      - '⚪November_37_658'
+      - '⚪November_371_660'
+      - '⚪November_379_668'
+      - '⚪November_38_669'
+      - '⚪November_382_672'
+      - '⚪November_385_675'
+      - '⚪November_386_676'
+      - '⚪November_39_680'
+      - '⚪November_391_682'
+      - '⚪November_392_683'
+      - '⚪November_393_684'
+      - '⚪November_396_687'
+      - '⚪November_40_692'
+      - '⚪November_414_708'
+      - '⚪November_422_717'
+      - '⚪November_43_725'
+      - '⚪November_432_728'
+      - '⚪November_434_730'
+      - '⚪November_44_736'
+      - '⚪November_45_747'
+      - '⚪November_457_755'
+      - '⚪November_465_764'
+      - '⚪November_468_767'
+      - '⚪November_471_771'
+      - '⚪November_480_780'
+      - '⚪November_49_790'
+      - '⚪November_499_800'
+      - '⚪November_5_801'
+      - '⚪November_511_815'
+      - '⚪November_518_822'
+      - '⚪November_520_825'
+      - '⚪November_522_827'
+      - '⚪November_524_829'
+      - '⚪November_53_835'
+      - '⚪November_535_841'
+      - '⚪November_541_848'
+      - '⚪November_547_854'
+      - '⚪November_55_857'
+      - '⚪November_555_863'
+      - '⚪November_567_876'
+      - '⚪November_568_877'
+      - '⚪November_57_879'
+      - '⚪November_579_889'
+      - '⚪November_580_891'
+      - '⚪November_582_893'
+      - '⚪November_584_895'
+      - '⚪November_589_899'
+      - '⚪November_59_900'
+      - '⚪November_595_906'
+      - '⚪November_6_911'
+      - '⚪November_606_919'
+      - '⚪November_61_923'
+      - '⚪November_618_932'
+      - '⚪November_619_933'
+      - '⚪November_626_941'
+      - '⚪November_627_942'
+      - '⚪November_628_943'
+      - '⚪November_63_945'
+      - '⚪November_637_953'
+      - '⚪November_645_962'
+      - '⚪November_653_971'
+      - '⚪November_660_978'
+      - '⚪November_667_985'
+      - '⚪November_67_988'
+      - '⚪November_672_991'
+      - '⚪November_679_998'
+      - '⚪November_68_999'
+      - '⚪November_681_1001'
+      - '⚪November_682_1002'
+      - '⚪November_684_1004'
+      - '⚪November_69_1010'
+      - '⚪November_692_1013'
+      - '⚪November_693_1014'
+      - '⚪November_7_1021'
+      - '⚪November_70_1022'
+      - '⚪November_701_1024'
+      - '⚪November_705_1028'
+      - '⚪November_712_1036'
+      - '⚪November_72_1044'
+      - '⚪November_733_1059'
+      - '⚪November_741_1068'
+      - '⚪November_743_1070'
+      - '⚪November_75_1077'
+      - '⚪November_750_1078'
+      - '⚪November_752_1080'
+      - '⚪November_76_1088'
+      - '⚪November_77_1099'
+      - '⚪November_775_1105'
+      - '⚪November_803_1136'
+      - '⚪November_805_1138'
+      - '⚪November_82_1154'
+      - '⚪November_821_1156'
+      - '⚪November_825_1160'
+      - '⚪November_84_1176'
+      - '⚪November_844_1181'
+      - '⚪November_845_1182'
+      - '⚪November_85_1187'
+      - '⚪November_850_1188'
+      - '⚪November_86_1198'
+      - '⚪November_88_1219'
+      - '⚪November_880_1220'
+      - '⚪November_883_1223'
+      - '⚪November_89_1230'
+      - '⚪November_9_1241'
+      - '⚪November_904_1247'
+      - '⚪November_919_1263'
+      - '⚪November_92_1264'
+      - '⚪November_93_1275'
+      - '⚪November_931_1277'
+      - '⚪November_943_1290'
+      - '⚪November_948_1295'
+      - '⚪November_960_1309'
+      - '⚪November_975_1325'
+      - '⚪November_98_1330'
+      - '⚪November_995_1347'
+      - '⚪November_996_1348'
 rules:
- - MATCH,🔴 auto
+  - MATCH,🔴 auto

@@ -3,9 +3,7 @@
     "independent_cache": true,
     "rules": [
       {
-        "domain": [
-          "dns.google"
-        ],
+        "domain": ["dns.google"],
         "server": "dns-direct"
       }
     ],
@@ -53,9 +51,7 @@
     {
       "domain_strategy": "",
       "endpoint_independent_nat": true,
-      "inet4_address": [
-        "172.19.0.1/28"
-      ],
+      "inet4_address": ["172.19.0.1/28"],
       "mtu": 9000,
       "sniff": true,
       "sniff_override_destination": false,
@@ -82,12 +78,10 @@
       "server": "104.31.16.60",
       "server_port": 443,
       "tls": {
-        "alpn": [
-          "h3"
-        ],
+        "alpn": ["h3"],
         "enabled": true,
         "insecure": true,
-        "server_name": "1.revil.link",// ساب دامین یا لینک وورکر اول
+        "server_name": "1.revil.link", // ساب دامین یا لینک وورکر اول
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -96,13 +90,13 @@
       "transport": {
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "headers": {
-          "Host": "1.revil.link"// ساب دامین یا لینک وورکر اول
+          "Host": "1.revil.link" // ساب دامین یا لینک وورکر اول
         },
         "max_early_data": 2048,
         "path": "/",
         "type": "ws"
       },
-      "uuid": "7d70c002-bfd7-4420-819f-68fcf42a9375",// یویو آی‌دی وورکر اول
+      "uuid": "7d70c002-bfd7-4420-819f-68fcf42a9375", // یویو آی‌دی وورکر اول
       "type": "vless",
       "domain_strategy": "",
       "tag": "worker 1"
@@ -112,12 +106,10 @@
       "server": "198.41.216.11",
       "server_port": 2087,
       "tls": {
-        "alpn": [
-          "h3"
-        ],
+        "alpn": ["h3"],
         "enabled": true,
         "insecure": true,
-        "server_name": "2.revil.link",// ساب دامین یا لینک وورکر دوم
+        "server_name": "2.revil.link", // ساب دامین یا لینک وورکر دوم
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
@@ -126,13 +118,13 @@
       "transport": {
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "headers": {
-          "Host": "2.revil.link"// ساب دامین یا لینک وورکر دوم
+          "Host": "2.revil.link" // ساب دامین یا لینک وورکر دوم
         },
         "max_early_data": 2048,
         "path": "/",
         "type": "ws"
       },
-      "uuid": "29435df4-1b36-487a-8950-9b544541f681",// یویو آی‌دی وورکر دوم
+      "uuid": "29435df4-1b36-487a-8950-9b544541f681", // یویو آی‌دی وورکر دوم
       "type": "vless",
       "domain_strategy": "",
       "tag": "worker 2"
@@ -142,12 +134,10 @@
       "server": "[2606:4700:d0::a29f:c001]",
       "server_port": 443,
       "tls": {
-        "alpn": [
-          "h3"
-        ],
+        "alpn": ["h3"],
         "enabled": true,
         "insecure": true,
-        "server_name": "3.revil.link",// ساب دامین یا لینک وورکر سوم
+        "server_name": "3.revil.link", // ساب دامین یا لینک وورکر سوم
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
@@ -156,12 +146,12 @@
       "transport": {
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "headers": {
-          "Host": "3.revil.link"// ساب دامین یا لینک وورکر سوم
+          "Host": "3.revil.link" // ساب دامین یا لینک وورکر سوم
         },
         "path": "/",
         "type": "ws"
       },
-      "uuid": "5952f1fc-a6e9-462d-976e-eb1c298991c2",// یویو آی‌دی وورکر سوم
+      "uuid": "5952f1fc-a6e9-462d-976e-eb1c298991c2", // یویو آی‌دی وورکر سوم
       "type": "vless",
       "domain_strategy": "",
       "tag": "worker 3"
@@ -171,12 +161,10 @@
       "server": "104.31.16.60",
       "server_port": 443,
       "tls": {
-        "alpn": [
-          "h3"
-        ],
+        "alpn": ["h3"],
         "enabled": true,
         "insecure": true,
-        "server_name": "4.revil.link",// ساب دامین یا لینک وورکر چهارم
+        "server_name": "4.revil.link", // ساب دامین یا لینک وورکر چهارم
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -185,13 +173,13 @@
       "transport": {
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "headers": {
-          "Host": "4.revil.link"// ساب دامین یا لینک وورکر چهارم
+          "Host": "4.revil.link" // ساب دامین یا لینک وورکر چهارم
         },
         "max_early_data": 2048,
         "path": "/",
         "type": "ws"
       },
-      "uuid": "45799ff5-0d6b-4717-90f7-e92e0c7a85dd",// یویو آی‌دی وورکر چهارم
+      "uuid": "45799ff5-0d6b-4717-90f7-e92e0c7a85dd", // یویو آی‌دی وورکر چهارم
       "type": "vless",
       "domain_strategy": "",
       "tag": "worker 4"
@@ -201,12 +189,10 @@
       "server": "198.41.216.11",
       "server_port": 2087,
       "tls": {
-        "alpn": [
-          "h3"
-        ],
+        "alpn": ["h3"],
         "enabled": true,
         "insecure": true,
-        "server_name": "5.revil.link",// ساب دامین یا لینک وورکر پنجم
+        "server_name": "5.revil.link", // ساب دامین یا لینک وورکر پنجم
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -215,12 +201,12 @@
       "transport": {
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "headers": {
-          "Host": "5.revil.link"// ساب دامین یا لینک وورکر پنجم
+          "Host": "5.revil.link" // ساب دامین یا لینک وورکر پنجم
         },
         "path": "/",
         "type": "ws"
       },
-      "uuid": "db683eac-690c-44ac-8ca9-3dc153ddb2ce",// یویو آی‌دی وورکر پنجم
+      "uuid": "db683eac-690c-44ac-8ca9-3dc153ddb2ce", // یویو آی‌دی وورکر پنجم
       "type": "vless",
       "domain_strategy": "",
       "tag": "worker 5"
@@ -327,26 +313,16 @@
     "rules": [
       {
         "outbound": "dns-out",
-        "port": [
-          53
-        ]
+        "port": [53]
       },
       {
-        "inbound": [
-          "dns-in"
-        ],
+        "inbound": ["dns-in"],
         "outbound": "dns-out"
       },
       {
-        "ip_cidr": [
-          "224.0.0.0/3",
-          "ff00::/8"
-        ],
+        "ip_cidr": ["224.0.0.0/3", "ff00::/8"],
         "outbound": "block",
-        "source_ip_cidr": [
-          "224.0.0.0/3",
-          "ff00::/8"
-        ]
+        "source_ip_cidr": ["224.0.0.0/3", "ff00::/8"]
       }
     ]
   }

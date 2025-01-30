@@ -3,10 +3,7 @@
     "hosts": {
       "geosite:category-ads-all": "127.0.0.1",
       "domain:googleapis.cn": "googleapis.com",
-      "dns.pub": [
-        "1.12.12.12",
-        "120.53.53.53"
-      ],
+      "dns.pub": ["1.12.12.12", "120.53.53.53"],
       "dns.alidns.com": [
         "223.5.5.5",
         "223.6.6.6",
@@ -30,10 +27,7 @@
       "1.1.1.1",
       {
         "address": "1.1.1.1",
-        "domains": [
-          "domain:googleapis.cn",
-          "domain:gstatic.com"
-        ],
+        "domains": ["domain:googleapis.cn", "domain:gstatic.com"],
         "port": 53
       },
       {
@@ -47,9 +41,7 @@
           "geosite:cn",
           "geosite:geolocation-cn"
         ],
-        "expectIPs": [
-          "geoip:cn"
-        ],
+        "expectIPs": ["geoip:cn"],
         "port": 53
       }
     ]
@@ -65,10 +57,7 @@
         "userLevel": 8
       },
       "sniffing": {
-        "destOverride": [
-          "http",
-          "tls"
-        ],
+        "destOverride": ["http", "tls"],
         "enabled": true,
         "routeOnly": false
       },
@@ -108,11 +97,7 @@
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
           }
         ],
-        "reserved": [
-          6,
-          250,
-          122
-        ],
+        "reserved": [6, 250, 122],
         "secretKey": "kENWiJu1P+RxSV53IaFgB84c4X5bwVWOAABeKT1wk2M="
       },
       "tag": "proxy"
@@ -139,26 +124,19 @@
     "domainStrategy": "IPIfNonMatch",
     "rules": [
       {
-        "ip": [
-          "1.1.1.1"
-        ],
+        "ip": ["1.1.1.1"],
         "outboundTag": "proxy",
         "port": "53",
         "type": "field"
       },
       {
-        "ip": [
-          "223.5.5.5"
-        ],
+        "ip": ["223.5.5.5"],
         "outboundTag": "direct",
         "port": "53",
         "type": "field"
       },
       {
-        "domain": [
-          "domain:googleapis.cn",
-          "domain:gstatic.com"
-        ],
+        "domain": ["domain:googleapis.cn", "domain:gstatic.com"],
         "outboundTag": "proxy",
         "type": "field"
       },
@@ -169,23 +147,17 @@
         "type": "field"
       },
       {
-        "domain": [
-          "geosite:category-ads-all"
-        ],
+        "domain": ["geosite:category-ads-all"],
         "outboundTag": "block",
         "type": "field"
       },
       {
-        "ip": [
-          "geoip:private"
-        ],
+        "ip": ["geoip:private"],
         "outboundTag": "direct",
         "type": "field"
       },
       {
-        "domain": [
-          "geosite:private"
-        ],
+        "domain": ["geosite:private"],
         "outboundTag": "direct",
         "type": "field"
       },
