@@ -1,5 +1,6 @@
 import json
 
+
 true = True
 import platform, subprocess, os, datetime, base64, json
 from cryptography.hazmat.primitives import serialization
@@ -47,45 +48,31 @@ temp2hi = {
     ]
 }
 
-temp = {
-    "outbounds": [
-        {
-            "type": "wireguard",
-            "server": "",
-            "server_port": 0,
-            "local_address": ["172.16.0.2/32", ""],
-            "private_key": "",
-            "peer_public_key": "",
-            "reserved": [],
-            "mtu": 1330,
-            "workers": 2,
-            "detour": "",
-            "tag": "",
-        }
-    ]
+temp ={
+"outbounds":[ {
+                "type": "wireguard",
+                "tag": "",
+                "name": "",
+                "mtu": 1280,
+                "address": ["172.16.0.2/32", ""],
+                "private_key": "",
+                "peers": [
+                    {
+                        "address": "",
+                        "port": 0,
+                        "public_key": "",
+                        "allowed_ips": ["0.0.0.0/0", "::/0"],
+                        "persistent_keepalive_interval": 30,
+                        "reserved": [],
+                    }
+                ],
+                "detour": "",
+                "workers": 2,
+}]
 }
-temp2 = {
-    "outbounds": [
-        {
-            "type": "wireguard",
-            "server": "",
-            "server_port": 0,
-            "local_address": ["172.16.0.2/32", ""],
-            "private_key": "",
-            "peer_public_key": "",
-            "reserved": [],
-            "mtu": 1330,
-            "workers": 2,
-            "detour": "",
-            "tag": "",
-        }
-    ]
-}
-
-
 WoW_v2 = [
     {
-        "remarks": "Tel= arshiacomplus - WoW",
+        "remarks": "𓄂𓆃 🗽 ÐΛɌ₭ᑎΞ𐒡𐒡 - WoW",
         "log": {"loglevel": "warning"},
         "dns": {
             "hosts": {
@@ -221,7 +208,7 @@ WoW_v2 = [
         "stats": {},
     },
     {
-        "remarks": "Tel= arshiacomplus - Warp",
+        "remarks": "Tel= 𓄂𓆃 🗽 ÐΛɌ₭ᑎΞ𐒡𐒡 - Warp",
         "log": {"loglevel": "warning"},
         "dns": {
             "hosts": {
@@ -434,7 +421,9 @@ def arch_suffix():
     elif machine.startswith("s390x"):
         return "s390x"
     else:
-        raise ValueError("Unsupported CPU architecture")
+        raise ValueError(
+            "Unsupported CPU architecture. Supported architectures are: i386, i686, x86_64, amd64, armv8, arm64, aarch64, s390x"
+        )
 
 
 def export_bestIPS(path):
@@ -476,16 +465,12 @@ def export_Hiddify(t_ips, f_ips):
     formatted_time = datetime.datetime.fromtimestamp(creation_time).strftime(
         "%Y-%m-%d %H:%M:%S"
     )
-    config_prefix = f"warp://{t_ips[0]}?ifp=10-20&ifps=20-60&ifpd=5-10#-IR&&detour=warp://{t_ips[1]}?ifp=10-20&ifps=20-60&ifpd=5-10#WoW-arshiacomplus-De"
+    config_prefix = f"warp://{t_ips[0]}?ifp=1-3&ifpm=m4#Warp-IR&&detour=warp://{t_ips[1]}?ifp=1-2&ifpm=m5#WoW-DE"
 
-    title = (
-        "//profile-title: base64:"
-        + base64.b64encode("𓄂𓆃 arshiacomplus ".encode("utf-8")).decode("utf-8")
-        + "\n"
-    )
-    update_interval = "//profile-update-interval: 1\n"
+    title = "//profile-title: base64:" + base64.b64encode('𓄂𓆃 🗽 ÐΛɌ₭ᑎΞ𐒡𐒡 '.encode('utf-8')).decode('utf-8') + "\n")
+    update_interval = "//profile-update-interval: 3\n"
     sub_info = "//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531\n"
-    profile_web = "//profile-web-page-url: https://github.com/arshaicomplus\n"
+    profile_web = "//profile-web-page-url: https://github.com/darknessm427\n"
     last_modified = "//last update on: " + formatted_time + "\n"
 
     with open("warp.json", "w") as op:
@@ -498,66 +483,29 @@ def export_Hiddify(t_ips, f_ips):
             + config_prefix
         )
 
-
-def toSingBox1(tag, clean_ip, detour):
+def toSingBox1(tag, clean_ip, detour,temp):
     print("Generating Warp Conf")
 
     data = bind_keys()
     wg = temp["outbounds"][0]
     wg["private_key"] = data[1]
-    wg["peer_public_key"] = data[3]
-    wg["reserved"] = data[2]
-    wg["local_address"][1] = data[0]
-    wg["server"] = clean_ip.split(":")[0]
-    wg["server_port"] = int(clean_ip.split(":")[1])
-    wg["mtu"] = 1300
+    wg["peers"][0]["public_key"] = data[3]
+    wg["peers"][0]["reserved"] = data[2]
+    wg["address"][1] = data[0]
+    wg["peers"][0]["address"] = clean_ip.split(":")[0]
+    wg["peers"][0]["port"] = int(clean_ip.split(":")[1])
+    wg["mtu"] = 1280
     wg["workers"] = 2
     wg["detour"] = detour
     wg["tag"] = tag
     return wg
 
 
-def toSingBox11(tag, clean_ip, detour):
+def toSingBox2(tag, clean_ip, detour,temp):
     print("Generating Warp Conf")
 
     data = bind_keys()
-    wg = temp2["outbounds"][0]
-    wg["private_key"] = data[1]
-    wg["peer_public_key"] = data[3]
-    wg["reserved"] = data[2]
-    wg["local_address"][1] = data[0]
-    wg["server"] = clean_ip.split(":")[0]
-    wg["server_port"] = int(clean_ip.split(":")[1])
-    wg["mtu"] = 1300
-    wg["workers"] = 2
-    wg["detour"] = detour
-    wg["tag"] = tag
-    return wg
-
-
-def toSingBox2(tag, clean_ip, detour):
-    print("Generating Warp Conf")
-
-    data = bind_keys()
-    wg = temphi["outbounds"][0]
-    wg["private_key"] = data[1]
-    wg["peer_public_key"] = data[3]
-    wg["reserved"] = data[2]
-    wg["local_address"][1] = data[0]
-    wg["server"] = clean_ip.split(":")[0]
-    wg["server_port"] = int(clean_ip.split(":")[1])
-    wg["mtu"] = 1300
-    wg["workers"] = 2
-    wg["detour"] = detour
-    wg["tag"] = tag
-    return wg
-
-
-def toSingBox22(tag, clean_ip, detour):
-    print("Generating Warp Conf")
-
-    data = bind_keys()
-    wg = temp2hi["outbounds"][0]
+    wg = temp["outbounds"][0]
     wg["private_key"] = data[1]
     wg["peer_public_key"] = data[3]
     wg["reserved"] = data[2]
@@ -613,19 +561,24 @@ def toxray11(clean_ip):
     WoW_v2[0]["outbounds"][1]["settings"]["mtu"] = 1300
     WoW_v2 = WoW_v2
 
-
 def export_SingBox(t_ips, arch):
     with open("assets/singbox-template.json", "r") as f:
         data = json.load(f)
 
-    warp_go_url = f"https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-go/warp-go-latest-linux-{arch}"
-    subprocess.run(["wget", warp_go_url, "-O", "warp-go"])
-    os.chmod("warp-go", 0o755)
+    data["outbounds"][0]["outbounds"].extend(["WARP-MAIN", "WARP-WOW"])
     data["outbounds"][1]["outbounds"].extend(["WARP-MAIN", "WARP-WOW"])
-    main_wg = toSingBox1("WARP-MAIN", t_ips[0], "direct")
-    data["outbounds"].insert(1, main_wg)
-    wow_wg = toSingBox11("WARP-WOW", t_ips[1], "WARP-MAIN")
-    data["outbounds"].insert(2, wow_wg)
+
+    main_wg = toSingBox1("WARP-MAIN", t_ips[0], "direct",temp)
+    if main_wg:
+        data["endpoints"].append(main_wg)
+    else:
+        print(f"Failed to generate WARP-MAIN configuration")
+
+    wow_wg = toSingBox1("WARP-WOW", t_ips[1], "WARP-MAIN",temp)
+    if wow_wg:
+        data["endpoints"].append(wow_wg)
+    else:
+        print(f"Failed to generate WARP-MAIN configuration")
 
     with open("sing-box.json", "w") as f:
         f.write(json.dumps(data, indent=2))
@@ -633,13 +586,6 @@ def export_SingBox(t_ips, arch):
 
 def export_Xray(t_ips, arch):
     global WoW_v2
-    with open("assets/singbox-template.json", "r") as f:
-        data = json.load(f)
-
-    warp_go_url = f"https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-go/warp-go-latest-linux-{arch}"
-    subprocess.run(["wget", warp_go_url, "-O", "warp-go"])
-    os.chmod("warp-go", 0o755)
-
     toxray1(t_ips[0])
 
     toxray11(t_ips[1])
@@ -647,26 +593,17 @@ def export_Xray(t_ips, arch):
     data = WoW_v2
     with open("Xray-WoW.json", "w") as f:
         f.write(json.dumps(data, indent=2))
-    os.remove("warp-go")
 
 
 def export_SingBox2(t_ips, arch):
-    with open("assets/singbox-template.json", "r") as f:
+    with open("assets/hiddify-singbox.json", "r") as f:
         data = json.load(f)
-
-    warp_go_url = f"https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-go/warp-go-latest-linux-{arch}"
-    subprocess.run(["wget", warp_go_url, "-O", "warp-go"])
-    os.chmod("warp-go", 0o755)
-
-    main_wg = toSingBox2("WARP-MAIN", t_ips[0], "direct")
+    main_wg = toSingBox2("WARP-MAIN", t_ips[0], "direct",temphi)
     data["outbounds"].insert(3, main_wg)
-    wow_wg = toSingBox22("WARP-WOW", t_ips[1], "WARP-MAIN")
+    wow_wg = toSingBox2("WARP-WOW", t_ips[1], "WARP-MAIN",temp2hi)
     data["outbounds"].insert(4, wow_wg)
-
     with open("sing-box-hiddify.json", "w") as f:
         f.write(json.dumps(data, indent=2))
-
-    os.remove("warp-go")
 
 
 def main(script_dir):
