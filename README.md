@@ -1,26 +1,27 @@
 
-$$\color{#a5a5a5} \Huge \text{\R $\sum{\vil_t = \mathbb{N108}\infty}$}$$
+$$\color{#a5a5a5} \Huge \text{\R $\sum{\vil_N}$}$$
 
 
 
 - تعدادی لینک اشتراک برای کلاینت‌های سینگ‌باکس، هیدیفای،
 v2rayNG, NikaNG, MahsaNG, NekoBox, Husi, Exclave, Amnezia, Clash-Meta & ...
   
-- Some subscription links are available for [v2rayNG], [Sing-Box], [Hiddify], [NikaNG], [MahsaNG], [NekoBox], [Husi], [Exclave], [Amnezia], [Clash-Meta] and other Clients.
+- Some subscription links are available for [v2rayNG], [Sing-Box], [Hiddify], [NikaNG], [MahsaNG], [NekoBox], [Husi], [Exclave], [Amnezia], [Clash-Meta] and other Clients.  
 
   
-- Несколько ссылок для подписки на: v2rayNG, Sing-Box, Hiddify, NikaNG, MahsaNG, NekoBox, Husi, Exclave, Amnezia, Clash-Meta и ... Вернуть результат только   
+- Несколько ссылок для подписки на: v2rayNG, Sing-Box, Hiddify, NikaNG, MahsaNG, NekoBox, Husi, Exclave, Amnezia, Clash-Meta и ... Вернуть результат только  
 
+   
 - 为以下软件提供一些共享链接：v2rayNG, Sing-Box, Hiddify, NikaNG, MahsaNG, Nekobox, Husi, Exclave, Amnezia, Clash-Meta 等。 
 
 <br>  
 
 > [!IMPORTANT]
 > <details>  
-> <summary> |    In case of dissatisfaction ... </summary>  
+> <summary> In case of dissatisfaction </summary>  
 > 
-> * سلام امیدوارم حالتون فوق‌العاده باشه    
-  > 
+> * سلام امیدوارم حالتون عالی باشه    
+> 
 > * لینک‌های ساب وایرگارد هیدیفای و ویتوری و ...  
 > * عموما برای الگو گرفتن و ساخت کانفیگ شخصی هستن و برای استفاده عموم مناسب نیستن،  
 > * لینک‌های singbox همه ساب‌های مورد علاقه خودمون هستن و تا جای ممکن سورس ساب‌هارو پیدا کرده و با [?] در جلوی اونها مشخص کردم. 
@@ -29,18 +30,39 @@ v2rayNG, NikaNG, MahsaNG, NekoBox, Husi, Exclave, Amnezia, Clash-Meta & ...
 > * اگر لینک عمومی سراغ داشتید که براتون خوب کار کرده می‌تونید بفرستید اضافه کنم و مردممون استفاده کنن. 
 > * متاسفانه از مرداد ماه نیما دیگه بینمون نیست و من و چند دوست دیگه اکانت گیت رو در حد توان اداره می‌کنیم. به امید آزادی 🤍
 > * تلگرام من: [[Di4Diana]].  
+> </details>   
+
+> [!IMPORTANT]
+> <details>  
+> <summary> Automated Project Management Notice </summary>  
+>
+> **⚙️ Dynamic Updates:**  
+> Approximately **23% of this repository** (including configuration files, templates, and metadata) is **automatically regenerated every hours in a day** via GitHub Actions workflows.  
+>  
+> **🛠️ Manual Edits Warning:**  
+Any changes made to files in the following directories **may be overwritten** without prior notice:  
+>
+> github/workflow/*  
+> boringtun/*  
+> edge/*  
+> sub/*  
+> root/*  
+> */.js  
+> */.json  
+> */.py  
+> */.html  
+> */.yml  
 > </details> 
 
-<br><br>  
+<br><br> 
+
+##
+> 📦 This configuration is dynamically generated and continuously updated via GitHub Actions workflows every 2 hours to ensure consistency and best practices.  
+
 <br>  
-
-## The subscription links  
-> Built-in github workflows 
-> Updateable every 2 hours  
-
-<br>
-
-### Hiddify URL  <img src="edge/assets/Hiddify-icon.png" alt="Hiddify" width="30"/>
+  
+##
+### Hiddify URL  <img src="edge/assets/Hiddify-icon.png" alt="Hiddify" width="25"/>
 
 ```POV-Ray SDL
 https://raw.githubusercontent.com/NiREvil/vless/main/warp.json
@@ -56,16 +78,15 @@ https://raw.githubusercontent.com/NiREvil/vless/main/sing-box.json
 
 <br>  
 
-### Scan with Hiddify 👇🏿  
+### Scan with Hiddify   
 
 <img src="edge/assets/QR-Code.svg" alt="QR" width="400px"/>  
-  
+
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)  
 
 <br><br>  
 
-<h2>$$\color{silver} \Huge \text{Table of Contents}$$</h2>  
-
+## Table of Contents   
 - [Cloudflare IPs](#Cloudflare-IPs)
   - [All IPs](#All-IPs)
   - [Only IPv6](#All-IPs)
@@ -78,7 +99,8 @@ https://raw.githubusercontent.com/NiREvil/vless/main/sing-box.json
   - [Warp for Exclave](#Warp-for-NekoBox) 
   - [Warp for v2rayNG](#Warp-for-v2rayNG)
   - [Warp for NikaNG](Warp-for-v2rayNG)
-  - [Warp SFA and SFI](#Warp-SFA-and-SFI) 
+  - [Warp SFA and SFI](#Warp-SFA-and-SFI)
+- [ServerLess](#ServerLess)
 - [Amnezia](#Amnezia) 
 - [Xray](#Xray)
 - [Clash](#Clash)
@@ -87,23 +109,20 @@ https://raw.githubusercontent.com/NiREvil/vless/main/sing-box.json
 <br><br> 
 
 ## Cloudflare IPs  
-> [!IMPORTANT]  
-> Built-in github workflows
-> 
-> Fetching cloudflare fresh & clean ip's
->  every 3 hours.  
-> 
->  I use the same IPs for the **[Harmony]** script. 
->  Additionally, you can utilize the **[Strawberry.js]**  
+> [!NOTE]  
+> 📦 The links below all include fresh & clean IP addresses that are dynamically fetched every 3 hours and continuously updated via GitHub Actions workflows. Any manual edits may be overwritten by automated workflows.  
+>  
+> I use the same IPs for the **[Harmony]** script.  
+> Additionally, you can utilize the **[Strawberry.js]**  
 > script to modify the arrangement of the IPs or to combine them with other repositories.  
 > for ex:  https://strawberry.victoriacross.ir
 
-<br>    
+[![Here](https://img.shields.io/badge/DEMO_FOR_LATEST_REAL_ADDRESS_GENERATOR-blue?logo=opencollective)](https://real-address1.victoriacross.ir/)  <br>  
 
 #### All IPs  
 https://github.com/NiREvil/vless/blob/main/Cloudflare-IPs.json  
 
-**Only IPv4**  
+**Only IPv4**   
 
 https://github.com/NiREvil/vless/blob/main/sub/Cf-ipv4.json  
 
@@ -140,9 +159,8 @@ https://igdux.top/~FREE2CONFIG,T,H
 https://raw.githubusercontent.com/azadiazinjamigzare/Service/main/Sub
 
 **Meshkintaj [[ME?]]**  
-https://singbox-freevpnhomes-subscription.meshkintaj.homes  
+https://karing-freevpnhomes-subscription.shampoosirsehat.homes    
 
-https://backup-singbox-freevpnhomes-subscription.meshkintaj.homes  
 
 **Warp +Windscribe + Hysteria - Hiddify**  
 https://raw.githubusercontent.com/NiREvil/vless/refs/heads/main/hiddify/Windscribe%20on%20H2
@@ -222,7 +240,7 @@ https://raw.githubusercontent.com/NiREvil/vless/main/hiddify/H2%20SINGBOX%20HOSS
 https://raw.githubusercontent.com/NiREvil/vless/main/sing-box.json  
 
 **Meshkintaj [[ME?]]**  
-https://singbox-freevpnhomes-subscription.meshkintaj.homes  
+https://karing-freevpnhomes-subscription.shampoosirsehat.homes  
 
 **Cypherpunks [[CY?]]**  
 https://raw.githubusercontent.com/IranianCypherpunks/SingBox/main/Sub  
@@ -233,19 +251,34 @@ https://raw.githubusercontent.com/HenryPorternew/sbs/main/ssb/sg
 **Warp+ Windscribe on sing-box**  
 https://raw.githubusercontent.com/NiREvil/vless/main/hiddify/Windscribe%20on%20H2  
 
-**All Guest ON Singbox**  
-https://raw.githubusercontent.com/NiREvil/vless/main/hiddify/All%20Guest%20SINGBOX  
-
 ---  
 
-<br><br> 
+<br>   
 
-## [Amnezia]
+## ServerLess   
+> [!NOTE]  
+> For Xray Core
+> 
+> These configs are serverless and just work with a few DNS servers.  
+> You can only use them for YouTube, Twitter, and browsing the web. With these configs,  
+> YouTube videos will load super fast, but keep in mind that since there’s no server involved,  
+> they won’t change your IP.  
+
+**tlshello [GFW]**  
+https://raw.githubusercontent.com/NiREvil/vless/refs/heads/main/sub/ServerLess_TLS_Fragment_xray_config.json  
+
+**1-1**   
+https://raw.githubusercontent.com/NiREvil/vless/refs/heads/main/sub/ServerLess_1-1_Fragment_xray_config.json  
+
+<br><br>    
+
+## [Amnezia]  
+
 > [!NOTE]
-> What do we [know about] the amnezia
+> What do we [know about] the amnezia  
 
+**A** [[∏I?]]  
 
-**A** [[∏I?]]
 ```POV-Ray SDL
 vpn://eyJjb25maWdfdmVyc2lvbiI6IDEuMCwgImFwaV9lbmRwb2ludCI6ICJodHRwczovL2FiYjZkYzAxZWExODJmOWJkLmF3c2dsb2JhbGFjY2VsZXJhdG9yLmNvbS9hcGkvdjEvcmVxdWVzdC9hd2cvIiwgInByb3RvY29sIjogImF3ZyIsICJuYW1lIjogIkFtbmV6aWEgRnJlZSBJUiIsICJkZXNjcmlwdGlvbiI6ICJBbW5lemlhIEZyZWUgZm9yIElyYW4iLCAiYXBpX2tleSI6ICJYbWtoWjhTay5UaTY0NENQTnBnTnQydW12ektUSGJRY1NSY2hpRXhlWSJ9
 ```
@@ -419,13 +452,14 @@ vpn://eyJjb25maWdfdmVyc2lvbiI6IDEuMCwgImFwaV9lbmRwb2ludCI6ICJodHRwczovL2FiYjZkYz
 vpn://eyJjb25maWdfdmVyc2lvbiI6IDEuMCwgImFwaV9lbmRwb2ludCI6ICJodHRwczovL2FiYjZkYzAxZWExODJmOWJkLmF3c2dsb2JhbGFjY2VsZXJhdG9yLmNvbS9hcGkvdjEvcmVxdWVzdC9hd2cvIiwgInByb3RvY29sIjogImF3ZyIsICJuYW1lIjogIkFtbmV6aWFGcmVlIElyYW4iLCAiZGVzY3JpcHRpb24iOiAiQW1uZXppYUZyZWUgZm9yIElyYW4iLCAiYXBpX2tleSI6ICJxcjV5elZsYi5sSnVwY3hVVlc3TTBmY2k0TzdCMVFDdVJpS0ZBdjkxaiJ9
 ```  
 
+
 </details>
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 <br><br>  
 
-## XRAY
+## XRAY  
 
 https://raw.githubusercontent.com/NiREvil/vless/main/sub/SSTime  
 
@@ -433,17 +467,13 @@ https://robin.nscl.ir [[∏I?]]
 
 https://v2.alicivil.workers.dev/?list=4&locations=all&count=250 [[GE?]]   
 
-https://raw.githubusercontent.com/MrPooyaX/SansorchiFucker/main/data.txt  
-
-https://raw.githubusercontent.com/MrPooyaX/VpnsFucking/main/Shenzo.txt  
-
 https://raw.githubusercontent.com/Proxydaemitelegram/Proxydaemi44/refs/heads/main/Proxydaemi44 [[PR?]]  
 
 https://raw.githubusercontent.com/FRDYAK/teryak-configs/refs/heads/main/FRDYAK-pashmak  
 
 https://raw.githubusercontent.com/ndsphonemy/proxy-sub/main/speed.txt  
 
-https://iserver.store/KevinVPN.json  [[KV?]]  
+[https://join_to_channel_join.json](https://t.me/KevinZakarian/304)  [[KV?]] 
 
 https://shadowmere.xyz/api/b64sub [[SW?]]   
 https://shadowmere.xyz/api/sub  
@@ -743,13 +773,15 @@ https://raw.githubusercontent.com/Epodonios/bulk-xray-v2ray-vless-vmess-...-conf
 
 [GE?]: <https://t.me/s/gheychiamoozesh>  
 
+[GFW]: <https://github.com/GFW-knocker/gfw_resist_HTTPS_proxy/tree/main>
+
 [KV?]: <https://t.me/s/KevinZakarian>  
 
 [∏I?]: <https://t.me/s/F_NiREvil>  
 
 [MB?]: <https://github.com/mahdibland/ShadowsocksAggregator>
 
-[ME?]: <https://t.me/s/FreeVpnHomes>  
+[ME?]: <https://t.me/s/FreeVPNHomes/532>  
 
 [PR?]: <https://t.me/s/ProxyDaemi>  
 
