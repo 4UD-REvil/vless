@@ -105,13 +105,13 @@
                 "172.16.0.2/32",
                 "2606:4700:110:8735:bb29:91bc:1c82:aa73/128"
             ],
-            "private_key": "ANGHyl5CwrqTH/Cyss1ytEa2ds9ERmzdpFAVT6fRd3U=",
+            "private_key": "6HTTok95v7eipZKgF2+f8MZ/Mbq/YpxAhuOzR8rdck0=",
             "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
             "mtu": 1300,
             "reserved": [
-                223,
-                1,
-                49
+                5,
+                28,
+                147
             ],
             "detour": "direct",
             "workers": 2
@@ -125,13 +125,13 @@
                 "172.16.0.2/32",
                 "2606:4700:110:8735:bb29:91bc:1c82:aa73/128"
             ],
-            "private_key": "cIjvUTbqAdyMt8cPu9Smw7sImzXy5H/1d39Q9/5z9GI=",
+            "private_key": "iCihaPeMKT0XTRN7iazgx2hSePCeHMsG05NnPRiTFmM=",
             "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
             "mtu": 1300,
             "reserved": [
-                244,
-                229,
-                231
+                53,
+                66,
+                113
             ],
             "detour": "\u26aa\ufe0fTehran",
             "workers": 2
